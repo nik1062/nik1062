@@ -77,10 +77,6 @@ A MERN-based transport management system featuring an Admin Dashboard and Androi
 
 Worked on data cleaning, visualization, dashboard creation, and insights generation using Python, Pandas, and SQL.
 
-## 📊 GitHub Stats
-
-![GitHub Streak](https://streak-stats.demolab.com?user=nik1062\&theme=tokyonight)
-
 ## 🌐 Connect With Me
 
 * 💼 LinkedIn: https://www.linkedin.com/in/nikunj-kumar-6724b7272
