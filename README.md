@@ -1,5 +1,100 @@
-# 💫 About Me:
-# 👋 Hey, I'm Nikunj Kumar<br><br>### 🚀 Full Stack Developer | Data Analytics Enthusiast | AI Builder<br><br>I'm a B.Tech Information Technology student at Anna University who loves building real-world tech products using modern web technologies, AI tools, and data-driven solutions.<br><br>I enjoy transforming ideas into scalable applications and continuously exploring new technologies in Full Stack Development, Artificial Intelligence, Cloud Computing, and Data Analytics.<br><br>---<br><br>## 🌟 About Me<br><br>* 🎓 B.Tech IT Student (2027)<br>* 💻 Passionate about Full Stack Web Development<br>* 🤖 Exploring AI-powered applications & automation<br>* 📊 Interested in Data Analytics & Visualization<br>* ☁️ Learning Cloud & Deployment Technologies<br>* 🚀 Love building real projects and shipping products<br>* 🧠 Strong believer in learning by creating<br><br>---<br><br>## 🔨 Currently Working On<br><br>* MERN Stack Applications<br>* AI-powered Web Projects<br>* Portfolio & Personal Branding<br>* Data Analysis Projects using Python<br>* Firebase & Node.js Backend Systems<br>* Real-time Applications with WebSockets<br><br>---<br><br>## 🌱 Currently Learning<br><br>* Advanced React Architecture<br>* Backend System Design<br>* Scalable REST APIs<br>* AI Integrations using OpenAI APIs<br>* Deployment & DevOps Workflows<br><br>---<br><br>## 💡 Tech Stack<br><br>### 👨‍💻 Languages<br><br>* JavaScript<br>* TypeScript<br>* Python<br>* Java<br>* C<br>* SQL<br><br>### ⚡ Frontend<br><br>* React<br>* Next.js<br>* HTML5<br>* CSS3<br>* Tailwind CSS<br>* Vite<br><br>### 🛠 Backend<br><br>* Node.js<br>* Express.js<br>* Flask<br>* FastAPI<br><br>### 🗄 Databases<br><br>* MongoDB<br>* MySQL<br>* Firebase<br>* SQLite<br>* Supabase<br><br>### ☁️ Cloud & Tools<br><br>* Git & GitHub<br>* Vercel<br>* Render<br>* Netlify<br>* Docker<br>* Postman<br><br>### 📊 Data Analytics & AI<br><br>* Pandas<br>* NumPy<br>* Matplotlib<br>* Scikit-learn<br>* TensorFlow<br>* PyTorch<br><br>---<br><br>## 🚀 Featured Projects<br><br>### 🤖 AI Assistant (Jarvis Inspired)<br><br>A voice-enabled AI assistant capable of automation, command execution, and smart interactions.<br><br>### 🍔 Fast Food Delivery Platform<br><br>A modern food delivery web application built with React, Firebase, and real-time features.<br><br>### 🚌 SABASH Bus Management System<br><br>A MERN-based transport management system with admin dashboard and Android applications for students and drivers.<br><br>### 📈 Data Analytics Projects<br><br>Worked on data cleaning, visualization, and insights generation using Python, Pandas, and SQL.<br><br>---<br><br>## 📊 GitHub Stats<br><br>![Nikunj's GitHub Stats](https://github-readme-stats.vercel.app/api?username=nik1062\&show_icons=true\&theme=tokyonight)<br><br>![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nik1062\&layout=compact\&theme=tokyonight)<br><br>![GitHub Streak](https://streak-stats.demolab.com?user=nik1062\&theme=tokyonight)<br><br>---<br><br>## 🌐 Connect With Me<br><br>* 💼 LinkedIn: [www.linkedin.com/in/nikunj-kumar-6724b7272](http://www.linkedin.com/in/nikunj-kumar-6724b7272)<br>* 📧 Email: [nikunjkumar1062@gmail.com](mailto:nikunjkumar1062@gmail.com)<br>* 🐦 X (Twitter): https://x.com/Nikunjkumar89756<br>* 📸 Instagram: https://instagram.com/nikunj_1062<br><br>---<br><br>## ⚡ Fun Fact<br><br>I enjoy turning ideas into real working products and experimenting with new technologies almost every day 🚀<br>
+# 👋 Hey, I'm Nikunj Kumar
+
+### 🚀 Full Stack Developer | Data Analytics Enthusiast | AI Builder
+
+I'm a B.Tech Information Technology student at Anna University who loves building real-world tech products using modern web technologies, AI tools, and data-driven solutions.
+
+I enjoy transforming ideas into scalable applications and continuously exploring new technologies in Full Stack Development, Artificial Intelligence, Cloud Computing, and Data Analytics.
+
+## 🌟 About Me
+
+* 🎓 B.Tech Information Technology Student (2027)
+* 💻 Passionate about Full Stack Web Development
+* 🤖 Exploring AI-powered Applications & Automation
+* 📊 Interested in Data Analytics & Visualization
+* ☁️ Learning Cloud Computing & Deployment Technologies
+* 🚀 Love Building Real Projects and Shipping Products
+* 🧠 Strong Believer in Learning by Creating
+
+## 🔨 Currently Working On
+
+* MERN Stack Applications
+* AI-Powered Web Projects
+* Portfolio & Personal Branding
+* Data Analysis Projects using Python
+* Firebase & Node.js Backend Systems
+* Real-Time Applications with WebSockets
+
+## 🌱 Currently Learning
+
+* Advanced React Architecture
+* Backend System Design
+* Scalable REST APIs
+* AI Integrations using OpenAI APIs
+* Deployment & DevOps Workflows
+
+## 💡 Tech Stack
+
+### 👨‍💻 Languages
+
+JavaScript • TypeScript • Python • Java • C • SQL
+
+### ⚡ Frontend
+
+React • Next.js • HTML5 • CSS3 • Tailwind CSS • Vite
+
+### 🛠 Backend
+
+Node.js • Express.js • Flask • FastAPI
+
+### 🗄 Databases
+
+MongoDB • MySQL • Firebase • SQLite • Supabase
+
+### ☁️ Cloud & Tools
+
+Git • GitHub • Docker • Vercel • Render • Netlify • Postman
+
+### 📊 AI & Data Analytics
+
+Pandas • NumPy • Matplotlib • Scikit-learn • TensorFlow • PyTorch
+
+## 🚀 Featured Projects
+
+### 🤖 AI Assistant (Jarvis Inspired)
+
+A voice-enabled AI assistant capable of automation, command execution, smart interactions, and AI-powered assistance.
+
+### 🍔 Fast Food Delivery Platform
+
+A modern food delivery web application built with React, Firebase, and real-time features.
+
+### 🚌 SABASH Bus Management System
+
+A MERN-based transport management system featuring an Admin Dashboard and Android applications for Students and Drivers.
+
+### 📈 Data Analytics Projects
+
+Worked on data cleaning, visualization, dashboard creation, and insights generation using Python, Pandas, and SQL.
+
+## 📊 GitHub Stats
+
+![Nikunj's GitHub Stats](https://github-readme-stats.vercel.app/api?username=nik1062\&show_icons=true\&theme=tokyonight)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nik1062\&layout=compact\&theme=tokyonight)
+
+![GitHub Streak](https://streak-stats.demolab.com?user=nik1062\&theme=tokyonight)
+
+## 🌐 Connect With Me
+
+* 💼 LinkedIn: https://www.linkedin.com/in/nikunj-kumar-6724b7272
+* 📧 Email: [nikunjkumar1062@gmail.com](mailto:nikunjkumar1062@gmail.com)
+* 🐦 X (Twitter): https://x.com/Nikunjkumar89756
+* 📸 Instagram: https://instagram.com/nikunj_1062
+* 
+## ⚡ Fun Fact
+
+I enjoy turning ideas into real working products, solving real-world problems through technology, and experimenting with new tools almost every day 🚀
 
 
 ## 🌐 Socials:
