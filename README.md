@@ -79,10 +79,6 @@ Worked on data cleaning, visualization, dashboard creation, and insights generat
 
 ## 📊 GitHub Stats
 
-![Nikunj's GitHub Stats](https://github-readme-stats.vercel.app/api?username=nik1062\&show_icons=true\&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=nik1062\&layout=compact\&theme=tokyonight)
-
 ![GitHub Streak](https://streak-stats.demolab.com?user=nik1062\&theme=tokyonight)
 
 ## 🌐 Connect With Me
@@ -95,7 +91,6 @@ Worked on data cleaning, visualization, dashboard creation, and insights generat
 ## ⚡ Fun Fact
 
 I enjoy turning ideas into real working products, solving real-world problems through technology, and experimenting with new tools almost every day 🚀
-
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://instagram.com/nikunj_1062) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/http://www.linkedin.com/in/nikunj-kumar-6724b7272) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/https://x.com/Nikunjkumar89756) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:nikunjkumar1062@gmail.com) 
