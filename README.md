@@ -1,92 +1,106 @@
 # 👋 Hey, I'm Nikunj Kumar
+### 🚀 Full Stack Developer | DevOps Engineer | AI Builder
 
-### 🚀 Full Stack Developer | Data Analytics Enthusiast | AI Builder
+---
 
-I'm a B.Tech Information Technology student at Anna University who loves building real-world tech products using modern web technologies, AI tools, and data-driven solutions.
+## 💫 About Me
 
-I enjoy transforming ideas into scalable applications and continuously exploring new technologies in Full Stack Development, Artificial Intelligence, Cloud Computing, and Data Analytics.
+Hi, I'm **Nikunj Kumar** — a B.Tech IT (3rd Year, Anna University 2027) student
+and co-founder of **Keyptu Studio**, a software development studio building
+web apps, POS systems, and AI-powered tools for real businesses.
 
-## 🌟 About Me
+I don't just write code — I build, deploy, and ship products end to end.
 
-* 🎓 B.Tech Information Technology Student (2027)
-* 💻 Passionate about Full Stack Web Development
-* 🤖 Exploring AI-powered Applications & Automation
-* 📊 Interested in Data Analytics & Visualization
-* ☁️ Learning Cloud Computing & Deployment Technologies
-* 🚀 Love Building Real Projects and Shipping Products
-* 🧠 Strong Believer in Learning by Creating
+🔭 Currently building:
+- **Keyptu Studio** — Full-stack web & AI solutions for businesses
+- **South Indian Spice Trading Platform** — B2B e-commerce with React + Node.js
+- **ColdMailForge** — AI-powered cold email SaaS with credit system & payments
+
+---
 
 ## 🔨 Currently Working On
-
-* MERN Stack Applications
-* AI-Powered Web Projects
-* Portfolio & Personal Branding
-* Data Analysis Projects using Python
-* Firebase & Node.js Backend Systems
-* Real-Time Applications with WebSockets
+- Full-stack client projects at **Keyptu Studio**
+- **ColdMailForge** — AI SaaS product (Node.js + React + MongoDB)
+- Restaurant & retail web solutions
+- AI automation workflows with **n8n**
 
 ## 🌱 Currently Learning
+- Advanced React Architecture & State Management
+- Backend System Design & Scalable REST APIs
+- DevOps — Docker, CI/CD pipelines, Nginx, PM2
+- AI Integrations using OpenAI API
 
-* Advanced React Architecture
-* Backend System Design
-* Scalable REST APIs
-* AI Integrations using OpenAI APIs
-* Deployment & DevOps Workflows
+---
 
 ## 💡 Tech Stack
 
 ### 👨‍💻 Languages
-
 JavaScript • TypeScript • Python • Java • C • SQL
 
 ### ⚡ Frontend
-
 React • Next.js • HTML5 • CSS3 • Tailwind CSS • Vite
 
 ### 🛠 Backend
-
-Node.js • Express.js • Flask • FastAPI
+Node.js • Express.js • FastAPI • Flask
 
 ### 🗄 Databases
+MongoDB • PostgreSQL • MySQL • Firebase • Supabase • SQLite
 
-MongoDB • MySQL • Firebase • SQLite • Supabase
+### ☁️ Cloud & DevOps
+AWS • Docker • Git • GitHub • Vercel • Render • Netlify • Nginx • PM2
 
-### ☁️ Cloud & Tools
+### 📊 AI & Data
+Pandas • NumPy • Matplotlib • Scikit-learn • TensorFlow • PyTorch • n8n
 
-Git • GitHub • Docker • Vercel • Render • Netlify • Postman
-
-### 📊 AI & Data Analytics
-
-Pandas • NumPy • Matplotlib • Scikit-learn • TensorFlow • PyTorch
+---
 
 ## 🚀 Featured Projects
 
-### 🤖 AI Assistant (Jarvis Inspired)
+### 📧 ColdMailForge
+AI-powered cold email SaaS with OTP auth, credit system, and Razorpay payments.
+Built with React, Node.js, MongoDB. Designed for marketers and founders.
+🔗 [View Repo](https://github.com/nik1062/ColdMailForge)
 
-A voice-enabled AI assistant capable of automation, command execution, smart interactions, and AI-powered assistance.
+### 📊 Finance Dashboard
+Fintech dashboard with role-based UI, analytics, and real-time reporting.
+Built with React 18, Vite, and Tailwind CSS.
+🔗 [View Repo](https://github.com/nik1062/FINANCE-DASHBOARD)
 
-### 🍔 Fast Food Delivery Platform
+### 🍽️ Restaurant POS System
+Full POS system with order management, billing, and inventory tracking.
+Built with Node.js and JavaScript for restaurant operations.
+🔗 [View Repo](https://github.com/nik1062/Restaurant-POS-System)
 
-A modern food delivery web application built with React, Firebase, and real-time features.
+### 🌶️ Metro Mirchi 2.0 — Real Client Project
+Full restaurant website built for Metro Mirchi 2.0, a real client.
+Responsive design with TypeScript.
+🔗 [View Repo](https://github.com/nik1062/metro2.O)
 
-### 🚌 SABASH Bus Management System
+### 💰 FinVault
+Personal finance tracker with expense management and analytics.
+Built with Node.js, PostgreSQL, and React.
+🔗 [View Repo](https://github.com/nik1062/-FinVault)
 
-A MERN-based transport management system featuring an Admin Dashboard and Android applications for Students and Drivers.
+### 🤖 n8n Agents
+Collection of AI automation workflows and agents built with n8n.
+Includes AI assistants, task automation, and custom integrations.
+🔗 [View Repo](https://github.com/nik1062/n8n-agents)
 
-### 📈 Data Analytics Projects
-
-Worked on data cleaning, visualization, dashboard creation, and insights generation using Python, Pandas, and SQL.
+---
 
 ## 🌐 Connect With Me
 
-* 💼 LinkedIn: https://www.linkedin.com/in/nikunj-kumar-6724b7272
-* 📧 Email: [nikunjkumar1062@gmail.com](mailto:nikunjkumar1062@gmail.com)
-* 🐦 X (Twitter): https://x.com/Nikunjkumar89756
-* 📸 Instagram: https://instagram.com/nikunj_1062
-* 
-## ⚡ Fun Fact
+- 🌍 **Studio:** [keyptu.com](https://keyptu.com)
+- 💼 **LinkedIn:** [linkedin.com/in/nikunj-kumar-6724b7272](https://www.linkedin.com/in/nikunj-kumar-6724b7272)
+- 📧 **Email:** nikunjkumar1062@gmail.com
+- 🐦 **X (Twitter):** [x.com/Nikunjkumar89756](https://x.com/Nikunjkumar89756)
+- 📸 **Instagram:** [instagram.com/nikunj_1062](https://instagram.com/nikunj_1062)
 
-I enjoy turning ideas into real working products, solving real-world problems through technology, and experimenting with new tools almost every day 🚀
+---
+
+## ⚡ Fun Fact
+I co-founded a software studio, I'm building a spice trading business,
+and I ship real products — all while in my 3rd year of college. 🚀
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/https://instagram.com/nikunj_1062) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/http://www.linkedin.com/in/nikunj-kumar-6724b7272) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/https://x.com/Nikunjkumar89756) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:nikunjkumar1062@gmail.com) 
