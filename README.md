@@ -1,58 +1,90 @@
-# 👋 Hey, I'm Nikunj Kumar
-### 🚀 Full Stack Developer | DevOps Engineer | AI Builder
+# Hi, I'm Nikunj Kumar
+
+### Full Stack Developer • DevOps Engineer • AI Builder
 
 ---
 
-## 💫 About Me
+## About Me
 
-Hi, I'm **Nikunj Kumar** — a B.Tech IT (3rd Year, Anna University 2027) student
-and co-founder of **Keyptu Studio**, a software development studio building
-web apps, POS systems, and AI-powered tools for real businesses.
+I'm **Nikunj Kumar**, a third-year B.Tech Information Technology student at **Anna University (Class of 2027)** and the co-founder of **Keyptu Studio**, a software development studio focused on building web applications, POS systems, and AI-powered solutions for businesses.
 
-I don't just write code — I build, deploy, and ship products end to end.
-
-🔭 Currently building:
-- **Keyptu Studio** — Full-stack web & AI solutions for businesses
-- **South Indian Spice Trading Platform** — B2B e-commerce with React + Node.js
-- **ColdMailForge** — AI-powered cold email SaaS with credit system & payments
+I enjoy building products from concept to deployment, working across the entire software development lifecycle—from designing intuitive user interfaces to developing scalable backend systems, deploying cloud infrastructure, and integrating AI into real-world applications.
 
 ---
 
-## 🔨 Currently Working On
-- Full-stack client projects at **Keyptu Studio**
-- **ColdMailForge** — AI SaaS product (Node.js + React + MongoDB)
-- Restaurant & retail web solutions
-- AI automation workflows with **n8n**
+## Current Projects
 
-## 🌱 Currently Learning
-- Advanced React Architecture & State Management
-- Backend System Design & Scalable REST APIs
-- DevOps — Docker, CI/CD pipelines, Nginx, PM2
-- AI Integrations using OpenAI API
+* **Keyptu Studio** — Full-stack web and AI solutions for businesses.
+* **South Indian Spice Trading Platform** — B2B e-commerce platform built with React and Node.js.
+* **ColdMailForge** — AI-powered cold email SaaS with authentication, payments, and credit-based usage.
 
 ---
 
-## 💡 Tech Stack
+## Current Focus
 
-### 👨‍💻 Languages
-JavaScript • TypeScript • Python • Java • C • SQL
-
-### ⚡ Frontend
-React • Next.js • HTML5 • CSS3 • Tailwind CSS • Vite
-
-### 🛠 Backend
-Node.js • Express.js • FastAPI • Flask
-
-### 🗄 Databases
-MongoDB • PostgreSQL • MySQL • Firebase • Supabase • SQLite
-
-### ☁️ Cloud & DevOps
-AWS • Docker • Git • GitHub • Vercel • Render • Netlify • Nginx • PM2
-
-### 📊 AI & Data
-Pandas • NumPy • Matplotlib • Scikit-learn • TensorFlow • PyTorch • n8n
+* Building production-ready client projects at **Keyptu Studio**
+* Developing **ColdMailForge**
+* Creating restaurant and retail management solutions
+* Building AI automation workflows with **n8n**
 
 ---
+
+## Currently Learning
+
+* Advanced React Architecture
+* Backend System Design
+* Scalable REST APIs
+* Docker & Kubernetes
+* CI/CD Pipelines
+* AWS Cloud
+* AI Integrations using OpenAI APIs
+
+---
+
+# Tech Stack
+
+### Languages
+
+<p>
+<img src="https://skillicons.dev/icons?i=js,ts,python,java,c,mysql" />
+</p>
+
+### Frontend
+
+<p>
+<img src="https://skillicons.dev/icons?i=react,nextjs,html,css,tailwind,vite" />
+</p>
+
+### Backend
+
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,flask" />
+</p>
+
+### Databases
+
+<p>
+<img src="https://skillicons.dev/icons?i=mongodb,postgres,firebase,supabase,sqlite,mysql" />
+</p>
+
+### Cloud & DevOps
+
+<p>
+<img src="https://skillicons.dev/icons?i=aws,docker,kubernetes,github,git,vercel,netlify,nginx" />
+</p>
+
+### AI & Machine Learning
+
+<p>
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,python" />
+</p>
+
+### Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=vscode,postman,figma,linux,bash" />
+</p>
+
 
 ## 🚀 Featured Projects
 
