@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=pulse&height=300&color=gradient&text=Nikunj%20Kumar&fontColor=white&fontSize=60&animation=fadeIn&desc=Full%20Stack%20Developer%20%7C%20AI%20Engineer%20%7C%20DevOps&descAlignY=62)
+![header](https://capsule-render.vercel.app/api?type=waving&height=280&color=gradient&text=Nikunj%20Kumar&fontColor=ffffff&fontSize=58&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%E2%80%A2%20AI%20Engineer%20%E2%80%A2%20DevOps&descColor=ffffff&descAlignY=60)
 
 I'm Nikunj Kumar, a third-year B.Tech Information Technology student at Anna University (Class of 2027) and the co-founder of Keyptu Studio, a software development studio focused on building web applications, POS systems, and AI-powered solutions for businesses.
 
