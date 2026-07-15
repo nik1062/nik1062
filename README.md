@@ -86,39 +86,78 @@ I enjoy building products from concept to deployment, working across the entire 
 </p>
 
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 📧 ColdMailForge
-AI-powered cold email SaaS with OTP auth, credit system, and Razorpay payments.
-Built with React, Node.js, MongoDB. Designed for marketers and founders.
-🔗 [View Repo](https://github.com/nik1062/ColdMailForge)
+<div align="center">
 
-### 📊 Finance Dashboard
-Fintech dashboard with role-based UI, analytics, and real-time reporting.
-Built with React 18, Vite, and Tailwind CSS.
-🔗 [View Repo](https://github.com/nik1062/FINANCE-DASHBOARD)
+<table>
+<tr>
 
-### 🍽️ Restaurant POS System
-Full POS system with order management, billing, and inventory tracking.
-Built with Node.js and JavaScript for restaurant operations.
-🔗 [View Repo](https://github.com/nik1062/Restaurant-POS-System)
+<td width="50%">
 
-### 🌶️ Metro Mirchi 2.0 — Real Client Project
-Full restaurant website built for Metro Mirchi 2.0, a real client.
-Responsive design with TypeScript.
-🔗 [View Repo](https://github.com/nik1062/metro2.O)
+### ColdMailForge
 
-### 💰 FinVault
-Personal finance tracker with expense management and analytics.
-Built with Node.js, PostgreSQL, and React.
-🔗 [View Repo](https://github.com/nik1062/-FinVault)
+AI-powered cold email SaaS platform with authentication, payments, campaign management, and AI-generated emails.
 
-### 🤖 n8n Agents
-Collection of AI automation workflows and agents built with n8n.
-Includes AI assistants, task automation, and custom integrations.
-🔗 [View Repo](https://github.com/nik1062/n8n-agents)
+**Stack**
 
----
+React • Node.js • MongoDB • Razorpay
+
+[Repository](#) • [Live Demo](#)
+
+</td>
+
+<td width="50%">
+
+### Finance Dashboard
+
+Modern analytics dashboard with role-based access, charts, and financial reporting.
+
+**Stack**
+
+React • Tailwind • Vite
+
+[Repository](#) • [Live Demo](#)
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%">
+
+### Restaurant POS
+
+Billing, inventory, kitchen orders, and customer management.
+
+**Stack**
+
+Node.js • Express • MongoDB
+
+[Repository](#)
+
+</td>
+
+<td width="50%">
+
+### Metro Mirchi 2.0
+
+Production website built for a real client.
+
+**Stack**
+
+React • TypeScript
+
+[Repository](#) • [Website](#)
+
+</td>
+
+</tr>
+
+</table>
+
+</div>
 
 ## 🌐 Connect With Me
 
