@@ -24,7 +24,7 @@ Full Stack & Mobile Application Developer (**Node.js · React · Flutter · Post
       <br><sub>Node.js · Express · React · MongoDB · Razorpay · OpenAI · Docker · AWS EC2</sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/nik1062"><img src="assets/codemeet.svg" width="100%" alt="CodeMeet AI technical interview platform preview"></a>
+      <a href="https://github.com/nik1062"><img src="https://raw.githubusercontent.com/nik1062/nik1062/main/assets/codemeet.png?v=1" width="100%" alt="CodeMeet AI technical interview platform preview"></a>
       <br><b><a href="https://github.com/nik1062">CodeMeet AI — Real-Time Interview Platform</a></b>
       <br>Collaborative technical interview platform featuring a multiplayer Monaco code editor with CRDT sync (Yjs), WebRTC video grid for 2 to 6+ participants (LiveKit), in-browser code execution, LLM-based automated grading, keystroke replay, and paste-burst plagiarism detection.
       <br><sub>Node.js · React · Yjs · WebSockets · LiveKit (WebRTC) · Zustand · Zod · Jest</sub>
@@ -32,7 +32,7 @@ Full Stack & Mobile Application Developer (**Node.js · React · Flutter · Post
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/nik1062/MediSync-POS"><img src="assets/medisync.svg" width="100%" alt="MediSync ClinicOS queue and POS preview"></a>
+      <a href="https://github.com/nik1062/MediSync-POS"><img src="https://raw.githubusercontent.com/nik1062/nik1062/main/assets/medisync.jpg?v=1" width="100%" alt="MediSync ClinicOS queue and POS preview"></a>
       <br><b><a href="https://github.com/nik1062/MediSync-POS">MediSync (ClinicOS) — Patient Mobile App &amp; POS</a></b>
       <br>Unified healthcare operations platform. Combines a Flutter patient mobile app (Riverpod) with a React clinic dashboard powered by an Express and PostgreSQL backend. Features a real-time live OPD queue over Socket.io, dual-token JWT auth (access + refresh), doctor consultation logs, and a complete POS billing lifecycle.
       <br><sub>Flutter · Dart · Riverpod · Node.js · PostgreSQL · Sequelize · Socket.io</sub>
