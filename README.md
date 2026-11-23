@@ -1,4 +1,4 @@
-<a href="https://nik1062-portfolio.vercel.app"><img src="assets/header.svg" width="100%" alt="Nikunj Kumar — Mobile & Full Stack Developer (Flutter, Android, Node.js, React, PostgreSQL)"></a>
+<a href="https://nik1062-portfolio.vercel.app"><img src="https://raw.githubusercontent.com/nik1062/nik1062/main/assets/header.svg?v=2" width="100%" alt="Nikunj Kumar — Mobile &amp; Full Stack Developer"></a>
 
 <p align="center">
   <a href="https://nik1062-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-nik1062--portfolio.vercel.app-06B6D4?style=for-the-badge&labelColor=07070C" alt="Portfolio"></a>
@@ -11,7 +11,7 @@
 
 Mobile Application & Full Stack Developer (**Flutter · Android · Node.js · React · PostgreSQL · AWS**) and final-year B.Tech IT student at Anna University, Chennai. Co-founder of **Keyptu Studio**. I build and deploy production-grade software end-to-end — **from cross-platform mobile apps with reactive state and offline storage to autonomous AI payment recovery agents and real-time transit fleet telematics.** Open to full-time Mobile Developer (Flutter/Android) & Software Engineer (SDE-1 / Full Stack) roles.
 
-<a href="https://nik1062-portfolio.vercel.app"><img src="assets/status.svg" width="100%" alt="Active Mobile Apps & Backend Systems"></a>
+<a href="https://nik1062-portfolio.vercel.app"><img src="https://raw.githubusercontent.com/nik1062/nik1062/main/assets/status.svg?v=2" width="100%" alt="Active Mobile Apps &amp; Backend Systems"></a>
 
 ### 🟢 Spotlight Systems
 
