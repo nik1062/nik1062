@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340">
+  <defs>
+    <clipPath id="card"><rect width="600" height="340" rx="14"/></clipPath>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F1729"/>
+      <stop offset="100%" stop-color="#0A0F1C"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="600" height="340" fill="url(#grad1)"/>
+    
+    <!-- Window Bar -->
+    <rect width="600" height="38" fill="#131D33"/>
+    <circle cx="24" cy="19" r="5" fill="#EF4444"/>
+    <circle cx="40" cy="19" r="5" fill="#F59E0B"/>
+    <circle cx="56" cy="19" r="5" fill="#10B981"/>
+    
+    <rect x="180" y="9" width="240" height="20" rx="10" fill="#0A0F1C" stroke="#1D2944"/>
+    <text x="300" y="23" text-anchor="middle" class="mono" font-size="11" fill="#8D99B1">coldmailforge.com/campaigns</text>
+    
+    <!-- Metric Row -->
+    <g transform="translate(24, 52)">
+      <rect width="128" height="54" rx="8" fill="#131D33" stroke="#1D2944"/>
+      <text x="12" y="22" class="sans" font-size="10" fill="#8D99B1">Deliverability</text>
+      <text x="12" y="44" class="sans" font-size="16" font-weight="700" fill="#3BE0A0">99.4%</text>
+
+      <rect x="140" y="0" width="128" height="54" rx="8" fill="#131D33" stroke="#1D2944"/>
+      <text x="152" y="22" class="sans" font-size="10" fill="#8D99B1">Open Rate</text>
+      <text x="152" y="44" class="sans" font-size="16" font-weight="700" fill="#38BDF8">64.2%</text>
+
+      <rect x="280" y="0" width="128" height="54" rx="8" fill="#131D33" stroke="#1D2944"/>
+      <text x="292" y="22" class="sans" font-size="10" fill="#8D99B1">Reply Rate</text>
+      <text x="292" y="44" class="sans" font-size="16" font-weight="700" fill="#A855F7">28.5%</text>
+
+      <rect x="420" y="0" width="132" height="54" rx="8" fill="#131D33" stroke="#1D2944"/>
+      <text x="432" y="22" class="sans" font-size="10" fill="#8D99B1">Credit Wallet</text>
+      <text x="432" y="44" class="sans" font-size="14" font-weight="700" fill="#F59E0B">Razorpay ⚡</text>
+    </g>
+
+    <!-- Editor Mockup -->
+    <g transform="translate(24, 118)">
+      <rect width="552" height="194" rx="10" fill="#0A0F1C" stroke="#1D2944"/>
+      <rect width="552" height="28" rx="10" fill="#0F1729"/>
+      <text x="16" y="18" class="mono" font-size="11" fill="#3BE0A0">● AI Email Generator (GPT Context Enriched)</text>
+
+      <!-- Email preview -->
+      <g transform="translate(16, 42)">
+        <text x="0" y="12" class="mono" font-size="11" fill="#8D99B1">Subject: <tspan fill="#F1F5F9">Quick question regarding your engineering roadmap at {{company}}</tspan></text>
+        <line x1="0" y1="22" x2="520" y2="22" stroke="#1E293B"/>
+
+        <text x="0" y="42" class="sans" font-size="11" fill="#CBD5E1">Hi {{firstName}}, loved your team's recent transition to event-driven webhooks.</text>
+        <text x="0" y="62" class="sans" font-size="11" fill="#CBD5E1">We built an automated recovery layer for failed transactions that boosted captured revenue by 24%.</text>
+        <text x="0" y="82" class="sans" font-size="11" fill="#CBD5E1">Would you be open to a 5-minute walkthrough of our interactive benchmark?</text>
+      </g>
+
+      <!-- Status badges -->
+      <g transform="translate(16, 154)">
+        <rect width="160" height="24" rx="6" fill="#3B82F6" fill-opacity="0.15"/>
+        <text x="12" y="16" class="mono" font-size="10" fill="#60A5FA">🔒 OTP Auth Verified</text>
+
+        <rect x="170" y="0" width="170" height="24" rx="6" fill="#10B981" fill-opacity="0.15"/>
+        <text x="182" y="16" class="mono" font-size="10" fill="#34D399">💳 Razorpay Checkout Hook</text>
+
+        <rect x="350" y="0" width="170" height="24" rx="6" fill="#F59E0B" fill-opacity="0.15"/>
+        <text x="362" y="16" class="mono" font-size="10" fill="#FBBF24">⚡ Dynamic Variables</text>
+      </g>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="599" height="339" rx="14" fill="none" stroke="#1D2944"/>
+</svg>

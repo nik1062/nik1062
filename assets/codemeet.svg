@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340">
+  <defs>
+    <clipPath id="card"><rect width="600" height="340" rx="14"/></clipPath>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F1729"/>
+      <stop offset="100%" stop-color="#0A0F1C"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="600" height="340" fill="url(#grad1)"/>
+    
+    <!-- Window Bar -->
+    <rect width="600" height="38" fill="#131D33"/>
+    <circle cx="24" cy="19" r="5" fill="#EF4444"/>
+    <circle cx="40" cy="19" r="5" fill="#F59E0B"/>
+    <circle cx="56" cy="19" r="5" fill="#10B981"/>
+    
+    <rect x="180" y="9" width="240" height="20" rx="10" fill="#0A0F1C" stroke="#1D2944"/>
+    <text x="300" y="23" text-anchor="middle" class="mono" font-size="11" fill="#8D99B1">codemeet.dev/room/interview-492</text>
+    
+    <!-- Top Bar with Live Badge & Participant Video Feeds -->
+    <g transform="translate(24, 48)">
+      <rect width="90" height="24" rx="12" fill="#EF4444" fill-opacity="0.15"/>
+      <circle cx="12" cy="12" r="4" fill="#EF4444"/>
+      <text x="24" y="16" class="mono" font-size="11" font-weight="700" fill="#EF4444">LIVE RTC</text>
+
+      <!-- Video Feed 1 -->
+      <rect x="360" y="0" width="90" height="60" rx="6" fill="#1E293B" stroke="#334155"/>
+      <circle cx="405" cy="24" r="12" fill="#3B82F6"/>
+      <text x="405" y="52" text-anchor="middle" class="sans" font-size="9" fill="#94A3B8">Interviewer (Lead)</text>
+
+      <!-- Video Feed 2 -->
+      <rect x="460" y="0" width="90" height="60" rx="6" fill="#1E293B" stroke="#334155"/>
+      <circle cx="505" cy="24" r="12" fill="#10B981"/>
+      <text x="505" y="52" text-anchor="middle" class="sans" font-size="9" fill="#94A3B8">Candidate (Live)</text>
+    </g>
+
+    <!-- Monaco Code Editor Frame -->
+    <g transform="translate(24, 116)">
+      <rect width="552" height="196" rx="10" fill="#0A0F1C" stroke="#1D2944"/>
+      <rect width="552" height="26" rx="10" fill="#0F1729"/>
+      <text x="16" y="17" class="mono" font-size="11" fill="#38BDF8">solution.ts</text>
+      <text x="110" y="17" class="mono" font-size="10" fill="#64748B">Yjs CRDT Connected (2 peers)</text>
+      
+      <!-- Code Lines -->
+      <text x="16" y="48" class="mono" font-size="11" fill="#64748B">1  <tspan fill="#F43F5E">export async function</tspan> <tspan fill="#38BDF8">twoSum</tspan>(nums: <tspan fill="#EAB308">number[]</tspan>, target: <tspan fill="#EAB308">number</tspan>) {</text>
+      <text x="16" y="68" class="mono" font-size="11" fill="#64748B">2    <tspan fill="#F43F5E">const</tspan> map = <tspan fill="#F43F5E">new</tspan> <tspan fill="#38BDF8">Map</tspan>&lt;<tspan fill="#EAB308">number, number</tspan>&gt;();</text>
+      <text x="16" y="88" class="mono" font-size="11" fill="#64748B">3    <tspan fill="#F43F5E">for</tspan> (<tspan fill="#F43F5E">let</tspan> i = <tspan fill="#A855F7">0</tspan>; i &lt; nums.length; i++) {</text>
+      <text x="16" y="108" class="mono" font-size="11" fill="#64748B">4      <tspan fill="#F43F5E">const</tspan> diff = target - nums[i];</text>
+      <text x="16" y="128" class="mono" font-size="11" fill="#64748B">5      <tspan fill="#F43F5E">if</tspan> (map.<tspan fill="#38BDF8">has</tspan>(diff)) <tspan fill="#F43F5E">return</tspan> [map.<tspan fill="#38BDF8">get</tspan>(diff)!, i];</text>
+      <text x="16" y="148" class="mono" font-size="11" fill="#64748B">6      map.<tspan fill="#38BDF8">set</tspan>(nums[i], i);</text>
+
+      <!-- Bottom Status Pill -->
+      <g transform="translate(14, 160)">
+        <rect width="180" height="24" rx="6" fill="#10B981" fill-opacity="0.15"/>
+        <text x="12" y="16" class="mono" font-size="11" fill="#10B981">✓ 22 Server Tests Passing</text>
+
+        <rect x="190" y="0" width="160" height="24" rx="6" fill="#3B82F6" fill-opacity="0.15"/>
+        <text x="202" y="16" class="mono" font-size="11" fill="#38BDF8">Keystroke Replay Active</text>
+
+        <rect x="360" y="0" width="164" height="24" rx="6" fill="#A855F7" fill-opacity="0.15"/>
+        <text x="372" y="16" class="mono" font-size="11" fill="#C084FC">AI Grading: Optimal O(n)</text>
+      </g>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="599" height="339" rx="14" fill="none" stroke="#1D2944"/>
+</svg>

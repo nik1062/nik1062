@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340">
+  <defs>
+    <clipPath id="card"><rect width="600" height="340" rx="14"/></clipPath>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F1729"/>
+      <stop offset="100%" stop-color="#0A0F1C"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3BE0A0"/>
+      <stop offset="100%" stop-color="#00ADD8"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="600" height="340" fill="url(#grad1)"/>
+    
+    <!-- Window Bar -->
+    <rect width="600" height="38" fill="#131D33"/>
+    <circle cx="24" cy="19" r="5" fill="#EF4444"/>
+    <circle cx="40" cy="19" r="5" fill="#F59E0B"/>
+    <circle cx="56" cy="19" r="5" fill="#10B981"/>
+    
+    <rect x="180" y="9" width="240" height="20" rx="10" fill="#0A0F1C" stroke="#1D2944"/>
+    <text x="300" y="23" text-anchor="middle" class="mono" font-size="11" fill="#8D99B1">recoverforge.app/agent</text>
+    
+    <!-- Top Stats Bar -->
+    <g transform="translate(24, 54)">
+      <rect width="168" height="58" rx="8" fill="#131D33" stroke="#1D2944"/>
+      <text x="14" y="24" class="sans" font-size="11" fill="#8D99B1">AI Classification</text>
+      <text x="14" y="46" class="sans" font-size="15" font-weight="700" fill="#3BE0A0">GPT-4o-mini</text>
+
+      <rect x="188" y="0" width="170" height="58" rx="8" fill="#131D33" stroke="#1D2944"/>
+      <text x="202" y="24" class="sans" font-size="11" fill="#8D99B1">HMAC Signature</text>
+      <text x="202" y="46" class="sans" font-size="14" font-weight="700" fill="#E9EEF6">SHA-256 Verified</text>
+
+      <rect x="378" y="0" width="174" height="58" rx="8" fill="#131D33" stroke="#1D2944"/>
+      <text x="392" y="24" class="sans" font-size="11" fill="#8D99B1">Automated Recovery</text>
+      <text x="392" y="46" class="sans" font-size="15" font-weight="700" fill="#3BE0A0">48h Active Link</text>
+    </g>
+
+    <!-- Terminal / Pipeline Visual -->
+    <g transform="translate(24, 126)">
+      <rect width="552" height="186" rx="10" fill="#0A0F1C" stroke="#1D2944"/>
+      <rect width="552" height="28" rx="10" fill="#0F1729"/>
+      <text x="16" y="19" class="mono" font-size="11" fill="#8D99B1">⚡ EVENT_BUS: payment.failed received</text>
+
+      <!-- Code / Pipeline items -->
+      <text x="16" y="52" class="mono" font-size="12" fill="#8D99B1">[00:01.02] <tspan fill="#3BE0A0">WEBHOOK_IN:</tspan> event_id=evnt_9x28fa, amount=INR 4,999</text>
+      <text x="16" y="74" class="mono" font-size="12" fill="#8D99B1">[00:01.18] <tspan fill="#38BDF8">IDEMPOTENCY:</tspan> redis.lock acquired, 0 duplicate deliveries</text>
+      <text x="16" y="96" class="mono" font-size="12" fill="#8D99B1">[00:01.64] <tspan fill="#A855F7">AI_INSPECT:</tspan> reason="bank_server_timeout" -> follow_up_pattern="immediate"</text>
+      <text x="16" y="118" class="mono" font-size="12" fill="#8D99B1">[00:02.10] <tspan fill="#F59E0B">RAZORPAY_API:</tspan> payment_link.created (plink_81729)</text>
+      <text x="16" y="140" class="mono" font-size="12" fill="#8D99B1">[00:02.45] <tspan fill="#10B981">DISPATCH:</tspan> smart recovery email delivered via SES</text>
+
+      <!-- Progress Pill -->
+      <rect x="16" y="152" width="520" height="22" rx="6" fill="#131D33"/>
+      <rect x="16" y="152" width="380" height="22" rx="6" fill="url(#neon)" opacity="0.3"/>
+      <text x="26" y="167" class="mono" font-size="11" fill="#3BE0A0">● Follow-up Pipeline: Step 1 Sent · Step 2 (+3d) Scheduled · Retry Halts on Capture</text>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="599" height="339" rx="14" fill="none" stroke="#1D2944"/>
+</svg>
