@@ -1,35 +1,21 @@
-<a href="https://nik1062-portfolio.vercel.app"><img src="https://raw.githubusercontent.com/nik1062/nik1062/main/assets/header.svg?v=2" width="100%" alt="Nikunj Kumar — Mobile &amp; Full Stack Developer"></a>
+<a href="https://nik1062-portfolio.vercel.app"><img src="https://raw.githubusercontent.com/nik1062/nik1062/main/assets/header.svg?v=3" width="100%" alt="Nikunj Kumar — Mobile &amp; Full Stack Developer"></a>
 
 <p align="center">
   <a href="https://nik1062-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-nik1062--portfolio.vercel.app-06B6D4?style=for-the-badge&labelColor=07070C" alt="Portfolio"></a>
-  <a href="https://raw.githubusercontent.com/nik1062/nik1062_Portfolio/main/public/assets/resume/Nikunj-Kumar-Mobile-Resume.pdf"><img src="https://img.shields.io/badge/Mobile_Resume-PDF-8B5CF6?style=for-the-badge&labelColor=07070C" alt="Mobile Resume"></a>
   <a href="https://raw.githubusercontent.com/nik1062/nik1062_Portfolio/main/public/assets/resume/Nikunj-Kumar-FullStack-Resume.pdf"><img src="https://img.shields.io/badge/FullStack_Resume-PDF-06B6D4?style=for-the-badge&labelColor=07070C" alt="Full Stack Resume"></a>
+  <a href="https://raw.githubusercontent.com/nik1062/nik1062_Portfolio/main/public/assets/resume/Nikunj-Kumar-Mobile-Resume.pdf"><img src="https://img.shields.io/badge/Mobile_Resume-PDF-8B5CF6?style=for-the-badge&labelColor=07070C" alt="Mobile Resume"></a>
   <a href="https://www.linkedin.com/in/nikunj-kumar-6724b7272"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=07070C" alt="LinkedIn"></a>
   <a href="mailto:nikunjkumar1062@gmail.com"><img src="https://img.shields.io/badge/Email-nikunjkumar1062@gmail.com-EC4899?style=for-the-badge&logo=gmail&logoColor=white&labelColor=07070C" alt="Email"></a>
   <a href="https://x.com/Nikunjkumar89756"><img src="https://img.shields.io/badge/X-Follow-38BDF8?style=for-the-badge&logo=x&logoColor=white&labelColor=07070C" alt="Twitter/X"></a>
 </p>
 
-Mobile Application & Full Stack Developer (**Flutter · Android · Node.js · React · PostgreSQL · AWS**) and final-year B.Tech IT student at Anna University, Chennai. Co-founder of **Keyptu Studio**. I build and deploy production-grade software end-to-end — **from cross-platform mobile apps with reactive state and offline storage to autonomous AI payment recovery agents and real-time transit fleet telematics.** Open to full-time Mobile Developer (Flutter/Android) & Software Engineer (SDE-1 / Full Stack) roles.
+Full Stack & Mobile Application Developer (**Node.js · React · Flutter · PostgreSQL · AWS**) and final-year B.Tech IT student at Anna University, Chennai. Co-founder of **Keyptu Studio**. I design and ship high-reliability software end to end — **from autonomous AI recovery agents to real-time collaborative Monaco editors, clinic queues, and cross-platform mobile apps.** Open to full-time Software Engineer (SDE-1 / Full Stack) & Mobile Developer roles.
 
-<a href="https://nik1062-portfolio.vercel.app"><img src="https://raw.githubusercontent.com/nik1062/nik1062/main/assets/status.svg?v=2" width="100%" alt="Active Mobile Apps &amp; Backend Systems"></a>
+<a href="https://nik1062-portfolio.vercel.app"><img src="https://raw.githubusercontent.com/nik1062/nik1062/main/assets/status.svg?v=3" width="100%" alt="Active Mobile Apps &amp; Backend Systems"></a>
 
 ### 🟢 Spotlight Systems
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/nik1062/studytrackerapp"><img src="assets/focusflow.svg" width="100%" alt="FocusFlow Flutter Mobile App preview"></a>
-      <br><b><a href="https://github.com/nik1062/studytrackerapp">FocusFlow — Study Productivity Mobile App</a></b>
-      <br>Cross-platform mobile app designed to help users track deep study sessions and build daily habits. Features a configurable Pomodoro timer, weekly focus analytics with custom charts, daily streak gamification, and local notifications. Built with offline-first local persistence.
-      <br><sub>Flutter · Dart · Riverpod · SQLite / Drift · Android · iOS</sub>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/nik1062"><img src="assets/sabas.svg" width="100%" alt="SABAS Bus Automation preview"></a>
-      <br><b><a href="https://github.com/nik1062">SABAS — Bus Transit Automation &amp; Live Tracking</a></b>
-      <br>🏆 <b>First Prize Winner, NEURA '25 AI Hackathon (out of 25 teams).</b> Real-time fleet telematics system that keeps students and parents informed of bus GPS locations and security. Dispatches automated geofence alerts 10 minutes before the bus reaches the designated pickup point or destination. Aligned with UN SDG-4.
-      <br><sub>Flutter · Dart · Node.js · WebSockets · Google Maps SDK · Cloud API</sub>
-    </td>
-  </tr>
   <tr>
     <td width="50%" valign="top">
       <a href="https://github.com/nik1062/RecoverForge"><img src="assets/recoverforge.svg" width="100%" alt="RecoverForge AI Failed-Payment Recovery Agent preview"></a>
@@ -38,37 +24,42 @@ Mobile Application & Full Stack Developer (**Flutter · Android · Node.js · Re
       <br><sub>Node.js · Express · React · MongoDB · Razorpay · OpenAI · Docker · AWS EC2</sub>
     </td>
     <td width="50%" valign="top">
+      <a href="https://github.com/nik1062"><img src="assets/codemeet.svg" width="100%" alt="CodeMeet AI technical interview platform preview"></a>
+      <br><b><a href="https://github.com/nik1062">CodeMeet AI — Real-Time Interview Platform</a></b>
+      <br>Collaborative technical interview platform featuring a multiplayer Monaco code editor with CRDT sync (Yjs), WebRTC video grid for 2 to 6+ participants (LiveKit), in-browser code execution, LLM-based automated grading, keystroke replay, and paste-burst plagiarism detection.
+      <br><sub>Node.js · React · Yjs · WebSockets · LiveKit (WebRTC) · Zustand · Zod · Jest</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <a href="https://github.com/nik1062/MediSync-POS"><img src="assets/medisync.svg" width="100%" alt="MediSync ClinicOS queue and POS preview"></a>
       <br><b><a href="https://github.com/nik1062/MediSync-POS">MediSync (ClinicOS) — Patient Mobile App &amp; POS</a></b>
       <br>Unified healthcare operations platform. Combines a Flutter patient mobile app (Riverpod) with a React clinic dashboard powered by an Express and PostgreSQL backend. Features a real-time live OPD queue over Socket.io, dual-token JWT auth (access + refresh), doctor consultation logs, and a complete POS billing lifecycle.
       <br><sub>Flutter · Dart · Riverpod · Node.js · PostgreSQL · Sequelize · Socket.io</sub>
     </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/nik1062/ColdMailForge"><img src="assets/coldmailforge.svg" width="100%" alt="ColdMailForge cold email platform preview"></a>
+      <br><b><a href="https://github.com/nik1062/ColdMailForge">ColdMailForge — AI Cold Outreach SaaS</a></b>
+      <br>AI-powered cold email SaaS platform with full authentication flow, OTP verification, dynamic credit wallet with Razorpay checkout hooks, automated campaign dispatcher, and context-enriched GPT email generation.
+      <br><sub>React · Node.js · Express · MongoDB · Razorpay · Tailwind CSS</sub>
+    </td>
   </tr>
 </table>
 
-### 🟠 More Projects & Client Work
+### 🟠 More Projects & Mobile Apps
 
 | Project | Description | Stack |
 |---|---|---|
-| **[ColdMailForge](https://github.com/nik1062/ColdMailForge)** | AI-powered cold email SaaS platform — OTP verification, dynamic credit wallet with Razorpay checkout hooks, and context-enriched GPT email generation. | *React, Node.js, MongoDB, Razorpay* |
-| **[CodeMeet AI](https://github.com/nik1062)** | Collaborative technical interview platform with multiplayer Monaco code editor (Yjs CRDT), LiveKit WebRTC video grid, and automated AI grading. | *Node.js, React, Yjs, LiveKit, Zustand* |
+| **[FocusFlow](https://github.com/nik1062/studytrackerapp)** | Mobile study productivity app — Pomodoro timer, daily streak gamification, custom analytics charts, and offline-first local persistence. | *Flutter, Dart, Riverpod, SQLite / Drift* |
+| **[SABAS Transit](https://github.com/nik1062)** | 🏆 **First Prize Winner, NEURA '25 AI Hackathon.** Fleet telematics system with real-time GPS tracking and 10-minute automated geofence alerts for students and parents. | *Flutter, Node.js, WebSockets, Cloud API* |
 | **[Vayu](https://github.com/nik1062/vayu)** | Open-source developer tool with a native C++ load-testing engine — Postman-style requests + k6-level stress tests in one unified desktop app. | *C++, TypeScript, Electron* |
-| **[FridgeFriend](https://github.com/nik1062)** | Grocery & pantry management mobile app — barcode scanning, smart expiry date tracking, and automated notification reminders to prevent food waste. | *Flutter, Dart, Firebase, Android* |
 | **[RESTROPro](https://github.com/nik1062/Resturant_POS-system)** | Multi-tenant restaurant and cafe POS — role-based access (admin vs staff), live table ordering, kitchen ticket dispatch, inventory management, and sales reports. | *React, Node.js, Express, MySQL* |
+| **[FridgeFriend](https://github.com/nik1062)** | Grocery & pantry management mobile app — barcode scanning, smart expiry date tracking, and automated notification reminders. | *Flutter, Dart, Firebase, Android* |
 | **[Metro Mirchi 2.0](https://github.com/nik1062/metro2.O)** | Client project — Production restaurant website with responsive layouts, interactive menus, and fast load times. | *React, TypeScript, Tailwind CSS* |
 
 ---
 
 ### 🧰 Tech Stack
-
-#### 📱 Mobile & Cross-Platform Development
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
-![Riverpod](https://img.shields.io/badge/Riverpod-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
 #### 💻 Programming Languages
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -77,6 +68,7 @@ Mobile Application & Full Stack Developer (**Flutter · Android · Node.js · Re
 ![SQL](https://img.shields.io/badge/SQL-CC292B?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
@@ -97,6 +89,15 @@ Mobile Application & Full Stack Developer (**Flutter · Android · Node.js · Re
 ![WebRTC](https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white)
 ![LiveKit](https://img.shields.io/badge/LiveKit-00254D?style=for-the-badge&logo=webrtc&logoColor=white)
 ![Razorpay](https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=3395FF)
+
+#### 📱 Mobile Development
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Riverpod](https://img.shields.io/badge/Riverpod-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 
 #### 🗄️ Databases & ORMs
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
