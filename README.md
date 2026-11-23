@@ -18,7 +18,7 @@ Full Stack & Mobile Application Developer (**Node.js · React · Flutter · Post
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/nik1062/RecoverForge"><img src="assets/recoverforge.svg" width="100%" alt="RecoverForge AI Failed-Payment Recovery Agent preview"></a>
+      <a href="https://github.com/nik1062/RecoverForge"><img src="https://raw.githubusercontent.com/nik1062/nik1062/main/assets/recoverforge.svg?v=2" width="100%" alt="RecoverForge AI Failed-Payment Recovery Agent preview"></a>
       <br><b><a href="https://github.com/nik1062/RecoverForge">RecoverForge — AI Payment Recovery Agent</a></b>
       <br>Autonomous agent built for the Razorpay AI Buildathon (Track 3). Ingests <code>payment.failed</code> webhooks, validates HMAC-SHA256 signatures, classifies root causes via GPT-4o-mini (with rule fallback), creates 48-hr Razorpay payment links, and executes an automated follow-up sequence (+1, +3, +7 days) with atomic lock guards.
       <br><sub>Node.js · Express · React · MongoDB · Razorpay · OpenAI · Docker · AWS EC2</sub>
