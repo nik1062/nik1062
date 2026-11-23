@@ -1,11 +1,11 @@
 <a href="https://nik1062-portfolio.vercel.app"><img src="assets/header.svg" width="100%" alt="Nikunj Kumar — I build software that powers AI payment recovery, technical interviews, clinic queues and multi-tenant POS"></a>
 
 <p align="center">
-  <a href="https://nik1062-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-nik1062--portfolio.vercel.app-3BE0A0?style=for-the-badge&labelColor=0A0F1C" alt="Portfolio"></a>
-  <a href="https://raw.githubusercontent.com/nik1062/nik1062_Portfolio/main/public/assets/resume/Nikunj-Kumar-FullStack-Resume.pdf"><img src="https://img.shields.io/badge/Resume-PDF-E9EEF6?style=for-the-badge&labelColor=0A0F1C" alt="Resume"></a>
-  <a href="https://www.linkedin.com/in/nikunj-kumar-6724b7272"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A0F1C" alt="LinkedIn"></a>
-  <a href="mailto:nikunjkumar1062@gmail.com"><img src="https://img.shields.io/badge/Email-nikunjkumar1062@gmail.com-FFB547?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0A0F1C" alt="Email"></a>
-  <a href="https://x.com/Nikunjkumar89756"><img src="https://img.shields.io/badge/X-Follow-1DA1F2?style=for-the-badge&logo=x&logoColor=white&labelColor=0A0F1C" alt="Twitter/X"></a>
+  <a href="https://nik1062-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-nik1062--portfolio.vercel.app-06B6D4?style=for-the-badge&labelColor=07070C" alt="Portfolio"></a>
+  <a href="https://raw.githubusercontent.com/nik1062/nik1062_Portfolio/main/public/assets/resume/Nikunj-Kumar-FullStack-Resume.pdf"><img src="https://img.shields.io/badge/Resume-PDF-8B5CF6?style=for-the-badge&labelColor=07070C" alt="Resume"></a>
+  <a href="https://www.linkedin.com/in/nikunj-kumar-6724b7272"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=07070C" alt="LinkedIn"></a>
+  <a href="mailto:nikunjkumar1062@gmail.com"><img src="https://img.shields.io/badge/Email-nikunjkumar1062@gmail.com-EC4899?style=for-the-badge&logo=gmail&logoColor=white&labelColor=07070C" alt="Email"></a>
+  <a href="https://x.com/Nikunjkumar89756"><img src="https://img.shields.io/badge/X-Follow-38BDF8?style=for-the-badge&logo=x&logoColor=white&labelColor=07070C" alt="Twitter/X"></a>
 </p>
 
 Full stack developer (**Node.js · React · PostgreSQL · AWS**) and final-year B.Tech IT student at Anna University, Chennai. Co-founder of **Keyptu Studio**. I design and ship high-reliability software end to end — **from autonomous AI recovery agents to real-time collaborative platforms and multi-tenant POS systems.** Open to full-time Software Engineer / SDE-1 / Full Stack roles.

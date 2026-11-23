@@ -1,101 +1,108 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340">
   <defs>
-    <clipPath id="card"><rect width="600" height="340" rx="14"/></clipPath>
-    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0F1729"/>
-      <stop offset="100%" stop-color="#0A0F1C"/>
+    <clipPath id="card"><rect width="600" height="340" rx="16"/></clipPath>
+    <radialGradient id="aurora" cx="90%" cy="80%" r="70%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.22"/>
+      <stop offset="60%" stop-color="#8B5CF6" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#07070C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#1E1B4B" stop-opacity="0.5"/>
     </linearGradient>
   </defs>
   <style>
-    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
     .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
   </style>
 
   <g clip-path="url(#card)">
-    <rect width="600" height="340" fill="url(#grad1)"/>
+    <rect width="600" height="340" fill="#07070C"/>
+    <rect width="600" height="340" fill="url(#aurora)"/>
     
     <!-- Window Bar -->
-    <rect width="600" height="38" fill="#131D33"/>
-    <circle cx="24" cy="19" r="5" fill="#EF4444"/>
-    <circle cx="40" cy="19" r="5" fill="#F59E0B"/>
-    <circle cx="56" cy="19" r="5" fill="#10B981"/>
+    <rect width="600" height="38" fill="#0E0D1B"/>
+    <circle cx="24" cy="19" r="4.5" fill="#EF4444"/>
+    <circle cx="39" cy="19" r="4.5" fill="#F59E0B"/>
+    <circle cx="54" cy="19" r="4.5" fill="#10B981"/>
     
-    <rect x="180" y="9" width="240" height="20" rx="10" fill="#0A0F1C" stroke="#1D2944"/>
-    <text x="300" y="23" text-anchor="middle" class="mono" font-size="11" fill="#8D99B1">clinicos.medisync.app/queue</text>
+    <rect x="170" y="8" width="260" height="22" rx="11" fill="#07070C" stroke="#2E1065" stroke-width="1.2"/>
+    <text x="300" y="23" text-anchor="middle" class="mono" font-size="11" fill="#A5B4FC">clinicos.medisync.app/opd</text>
     
     <!-- Queue & POS Live Dashboard -->
     <g transform="translate(24, 52)">
       <!-- Left Card: Live Queue -->
-      <rect width="266" height="260" rx="10" fill="#0A0F1C" stroke="#1D2944"/>
-      <rect width="266" height="32" rx="10" fill="#131D33"/>
-      <text x="14" y="21" class="sans" font-size="12" font-weight="700" fill="#E9EEF6">🏥 Live OPD Queue</text>
-      <rect x="186" y="7" width="68" height="18" rx="9" fill="#10B981" fill-opacity="0.15"/>
-      <text x="220" y="20" text-anchor="middle" class="mono" font-size="9" fill="#10B981">Socket.io</text>
+      <rect width="266" height="262" rx="10" fill="#07070C" stroke="#1E1B4B" stroke-width="1.2"/>
+      <rect width="266" height="32" rx="10" fill="#0E0D1B"/>
+      <text x="14" y="21" class="sans" font-size="12" font-weight="700" fill="#F8FAFC">🏥 Live OPD Queue Sync</text>
+      <rect x="186" y="7" width="68" height="18" rx="9" fill="#06B6D4" fill-opacity="0.15" stroke="#06B6D4" stroke-opacity="0.4"/>
+      <text x="220" y="20" text-anchor="middle" class="mono" font-size="8.5" fill="#38BDF8">Socket.io</text>
 
       <!-- Token Item 1 -->
       <g transform="translate(14, 44)">
-        <rect width="238" height="42" rx="6" fill="#1E293B" stroke="#334155"/>
-        <text x="12" y="25" class="mono" font-size="14" font-weight="700" fill="#3BE0A0">#42</text>
-        <text x="56" y="20" class="sans" font-size="11" fill="#F1F5F9">Rahul Sharma</text>
+        <rect width="238" height="42" rx="6" fill="#0E0D1B" stroke="#2E1065"/>
+        <text x="12" y="25" class="mono" font-size="14" font-weight="700" fill="#38BDF8">#42</text>
+        <text x="56" y="20" class="sans" font-size="11" font-weight="600" fill="#F1F5F9">Rahul Sharma</text>
         <text x="56" y="34" class="sans" font-size="9" fill="#94A3B8">In Consultation · Dr. Priya</text>
-        <rect x="186" y="12" width="44" height="18" rx="4" fill="#3B82F6" fill-opacity="0.2"/>
-        <text x="208" y="24" text-anchor="middle" class="mono" font-size="8" fill="#60A5FA">ACTIVE</text>
+        <rect x="184" y="12" width="46" height="18" rx="4" fill="#8B5CF6" fill-opacity="0.2"/>
+        <text x="207" y="24" text-anchor="middle" class="mono" font-size="8" fill="#C084FC">ACTIVE</text>
       </g>
 
       <!-- Token Item 2 -->
       <g transform="translate(14, 94)">
-        <rect width="238" height="42" rx="6" fill="#131D33"/>
+        <rect width="238" height="42" rx="6" fill="#0E0D1B"/>
         <text x="12" y="25" class="mono" font-size="14" font-weight="700" fill="#E2E8F0">#43</text>
         <text x="56" y="20" class="sans" font-size="11" fill="#F1F5F9">Ananya Sen</text>
         <text x="56" y="34" class="sans" font-size="9" fill="#94A3B8">Next in Line · Wait: ~4 mins</text>
-        <rect x="186" y="12" width="44" height="18" rx="4" fill="#EAB308" fill-opacity="0.2"/>
-        <text x="208" y="24" text-anchor="middle" class="mono" font-size="8" fill="#FACC15">WAITING</text>
+        <rect x="184" y="12" width="46" height="18" rx="4" fill="#F59E0B" fill-opacity="0.2"/>
+        <text x="207" y="24" text-anchor="middle" class="mono" font-size="8" fill="#FBBF24">WAITING</text>
       </g>
 
       <!-- Token Item 3 -->
       <g transform="translate(14, 144)">
-        <rect width="238" height="42" rx="6" fill="#131D33"/>
+        <rect width="238" height="42" rx="6" fill="#0E0D1B"/>
         <text x="12" y="25" class="mono" font-size="14" font-weight="700" fill="#E2E8F0">#44</text>
         <text x="56" y="20" class="sans" font-size="11" fill="#F1F5F9">Kavita Iyer</text>
-        <text x="56" y="34" class="sans" font-size="9" fill="#94A3B8">Checked In (Mobile Flutter App)</text>
+        <text x="56" y="34" class="sans" font-size="9" fill="#94A3B8">Checked In (Flutter Mobile App)</text>
       </g>
 
       <!-- Token Item 4 -->
       <g transform="translate(14, 194)">
-        <rect width="238" height="42" rx="6" fill="#131D33"/>
+        <rect width="238" height="42" rx="6" fill="#0E0D1B"/>
         <text x="12" y="25" class="mono" font-size="14" font-weight="700" fill="#E2E8F0">#45</text>
         <text x="56" y="20" class="sans" font-size="11" fill="#F1F5F9">Vikram Roy</text>
         <text x="56" y="34" class="sans" font-size="9" fill="#94A3B8">Arriving · Slot 11:30 AM</text>
       </g>
     </g>
 
-    <!-- Right Card: Dual Architecture & POS -->
+    <!-- Right Card: Architecture & POS -->
     <g transform="translate(306, 52)">
-      <rect width="270" height="260" rx="10" fill="#0A0F1C" stroke="#1D2944"/>
-      <rect width="270" height="32" rx="10" fill="#131D33"/>
-      <text x="14" y="21" class="sans" font-size="12" font-weight="700" fill="#E9EEF6">⚡ Architecture &amp; POS Billing</text>
+      <rect width="270" height="262" rx="10" fill="#07070C" stroke="#1E1B4B" stroke-width="1.2"/>
+      <rect width="270" height="32" rx="10" fill="#0E0D1B"/>
+      <text x="14" y="21" class="sans" font-size="12" font-weight="700" fill="#F8FAFC">⚡ Architecture &amp; Billing Lifecycle</text>
 
       <g transform="translate(14, 46)">
-        <rect width="242" height="60" rx="6" fill="#131D33" stroke="#1D2944"/>
-        <text x="12" y="22" class="mono" font-size="10" fill="#38BDF8">Express API &amp; PostgreSQL</text>
+        <rect width="242" height="60" rx="6" fill="#0E0D1B" stroke="#2E1065"/>
+        <text x="12" y="22" class="mono" font-size="10" fill="#38BDF8">Express API &amp; PostgreSQL Schema</text>
         <text x="12" y="38" class="sans" font-size="11" fill="#CBD5E1">Dual-Token JWT (Access + Refresh)</text>
-        <text x="12" y="52" class="mono" font-size="9" fill="#10B981">Rate-limited · RBAC Clinic Roles</text>
+        <text x="12" y="52" class="mono" font-size="9" fill="#34D399">Rate-limited · RBAC Clinic Roles</text>
       </g>
 
       <g transform="translate(14, 114)">
-        <rect width="242" height="60" rx="6" fill="#131D33" stroke="#1D2944"/>
+        <rect width="242" height="60" rx="6" fill="#0E0D1B" stroke="#2E1065"/>
         <text x="12" y="22" class="mono" font-size="10" fill="#A855F7">Unified Clients</text>
         <text x="12" y="38" class="sans" font-size="11" fill="#CBD5E1">React Dashboard &amp; Flutter App</text>
-        <text x="12" y="52" class="mono" font-size="9" fill="#8D99B1">Riverpod State · Instant Queue Sync</text>
+        <text x="12" y="52" class="mono" font-size="9" fill="#94A3B8">Riverpod State · Instant Socket Broadcast</text>
       </g>
 
       <g transform="translate(14, 182)">
-        <rect width="242" height="60" rx="6" fill="#131D33" stroke="#1D2944"/>
+        <rect width="242" height="60" rx="6" fill="#0E0D1B" stroke="#2E1065"/>
         <text x="12" y="22" class="mono" font-size="10" fill="#F59E0B">POS Billing Lifecycle</text>
         <text x="12" y="38" class="sans" font-size="11" fill="#CBD5E1">Consultation + Pharmacy Invoicing</text>
-        <text x="12" y="52" class="mono" font-size="9" fill="#3BE0A0">GST Compliant · Receipt Generator</text>
+        <text x="12" y="52" class="mono" font-size="9" fill="#38BDF8">GST Compliant · Receipt Generator</text>
       </g>
     </g>
   </g>
-  <rect x="0.5" y="0.5" width="599" height="339" rx="14" fill="none" stroke="#1D2944"/>
+  <rect x="0.75" y="0.75" width="598.5" height="338.5" rx="16" fill="none" stroke="url(#borderGrad)" stroke-width="1.5"/>
 </svg>

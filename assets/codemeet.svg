@@ -1,72 +1,79 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="340" viewBox="0 0 600 340">
   <defs>
-    <clipPath id="card"><rect width="600" height="340" rx="14"/></clipPath>
-    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0F1729"/>
-      <stop offset="100%" stop-color="#0A0F1C"/>
+    <clipPath id="card"><rect width="600" height="340" rx="16"/></clipPath>
+    <radialGradient id="aurora" cx="20%" cy="80%" r="70%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.2"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#07070C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#1E1B4B" stop-opacity="0.5"/>
     </linearGradient>
   </defs>
   <style>
-    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
     .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
   </style>
 
   <g clip-path="url(#card)">
-    <rect width="600" height="340" fill="url(#grad1)"/>
+    <rect width="600" height="340" fill="#07070C"/>
+    <rect width="600" height="340" fill="url(#aurora)"/>
     
     <!-- Window Bar -->
-    <rect width="600" height="38" fill="#131D33"/>
-    <circle cx="24" cy="19" r="5" fill="#EF4444"/>
-    <circle cx="40" cy="19" r="5" fill="#F59E0B"/>
-    <circle cx="56" cy="19" r="5" fill="#10B981"/>
+    <rect width="600" height="38" fill="#0E0D1B"/>
+    <circle cx="24" cy="19" r="4.5" fill="#EF4444"/>
+    <circle cx="39" cy="19" r="4.5" fill="#F59E0B"/>
+    <circle cx="54" cy="19" r="4.5" fill="#10B981"/>
     
-    <rect x="180" y="9" width="240" height="20" rx="10" fill="#0A0F1C" stroke="#1D2944"/>
-    <text x="300" y="23" text-anchor="middle" class="mono" font-size="11" fill="#8D99B1">codemeet.dev/room/interview-492</text>
+    <rect x="170" y="8" width="260" height="22" rx="11" fill="#07070C" stroke="#2E1065" stroke-width="1.2"/>
+    <text x="300" y="23" text-anchor="middle" class="mono" font-size="11" fill="#A5B4FC">codemeet.dev/room/interview-492</text>
     
     <!-- Top Bar with Live Badge & Participant Video Feeds -->
     <g transform="translate(24, 48)">
-      <rect width="90" height="24" rx="12" fill="#EF4444" fill-opacity="0.15"/>
+      <rect width="94" height="24" rx="12" fill="#EF4444" fill-opacity="0.15" stroke="#EF4444" stroke-opacity="0.3"/>
       <circle cx="12" cy="12" r="4" fill="#EF4444"/>
-      <text x="24" y="16" class="mono" font-size="11" font-weight="700" fill="#EF4444">LIVE RTC</text>
+      <text x="24" y="16" class="mono" font-size="10.5" font-weight="700" fill="#EF4444">LIVE RTC</text>
 
       <!-- Video Feed 1 -->
-      <rect x="360" y="0" width="90" height="60" rx="6" fill="#1E293B" stroke="#334155"/>
-      <circle cx="405" cy="24" r="12" fill="#3B82F6"/>
-      <text x="405" y="52" text-anchor="middle" class="sans" font-size="9" fill="#94A3B8">Interviewer (Lead)</text>
+      <rect x="350" y="0" width="95" height="58" rx="8" fill="#0E0D1B" stroke="#2E1065" stroke-width="1.2"/>
+      <circle cx="397" cy="22" r="11" fill="#3B82F6"/>
+      <text x="397" y="48" text-anchor="middle" class="sans" font-size="9" fill="#CBD5E1">Interviewer</text>
 
       <!-- Video Feed 2 -->
-      <rect x="460" y="0" width="90" height="60" rx="6" fill="#1E293B" stroke="#334155"/>
-      <circle cx="505" cy="24" r="12" fill="#10B981"/>
-      <text x="505" y="52" text-anchor="middle" class="sans" font-size="9" fill="#94A3B8">Candidate (Live)</text>
+      <rect x="455" y="0" width="95" height="58" rx="8" fill="#0E0D1B" stroke="#2E1065" stroke-width="1.2"/>
+      <circle cx="502" cy="22" r="11" fill="#10B981"/>
+      <text x="502" y="48" text-anchor="middle" class="sans" font-size="9" fill="#CBD5E1">Candidate (Live)</text>
     </g>
 
     <!-- Monaco Code Editor Frame -->
-    <g transform="translate(24, 116)">
-      <rect width="552" height="196" rx="10" fill="#0A0F1C" stroke="#1D2944"/>
-      <rect width="552" height="26" rx="10" fill="#0F1729"/>
+    <g transform="translate(24, 114)">
+      <rect width="552" height="198" rx="10" fill="#07070C" stroke="#1E1B4B" stroke-width="1.2"/>
+      <rect width="552" height="26" rx="10" fill="#0E0D1B"/>
       <text x="16" y="17" class="mono" font-size="11" fill="#38BDF8">solution.ts</text>
-      <text x="110" y="17" class="mono" font-size="10" fill="#64748B">Yjs CRDT Connected (2 peers)</text>
+      <text x="110" y="17" class="mono" font-size="10" fill="#818CF8">● Yjs CRDT Active (Multiplayer Sync)</text>
       
       <!-- Code Lines -->
-      <text x="16" y="48" class="mono" font-size="11" fill="#64748B">1  <tspan fill="#F43F5E">export async function</tspan> <tspan fill="#38BDF8">twoSum</tspan>(nums: <tspan fill="#EAB308">number[]</tspan>, target: <tspan fill="#EAB308">number</tspan>) {</text>
-      <text x="16" y="68" class="mono" font-size="11" fill="#64748B">2    <tspan fill="#F43F5E">const</tspan> map = <tspan fill="#F43F5E">new</tspan> <tspan fill="#38BDF8">Map</tspan>&lt;<tspan fill="#EAB308">number, number</tspan>&gt;();</text>
-      <text x="16" y="88" class="mono" font-size="11" fill="#64748B">3    <tspan fill="#F43F5E">for</tspan> (<tspan fill="#F43F5E">let</tspan> i = <tspan fill="#A855F7">0</tspan>; i &lt; nums.length; i++) {</text>
-      <text x="16" y="108" class="mono" font-size="11" fill="#64748B">4      <tspan fill="#F43F5E">const</tspan> diff = target - nums[i];</text>
-      <text x="16" y="128" class="mono" font-size="11" fill="#64748B">5      <tspan fill="#F43F5E">if</tspan> (map.<tspan fill="#38BDF8">has</tspan>(diff)) <tspan fill="#F43F5E">return</tspan> [map.<tspan fill="#38BDF8">get</tspan>(diff)!, i];</text>
-      <text x="16" y="148" class="mono" font-size="11" fill="#64748B">6      map.<tspan fill="#38BDF8">set</tspan>(nums[i], i);</text>
+      <text x="16" y="46" class="mono" font-size="11" fill="#64748B">1  <tspan fill="#F43F5E">export async function</tspan> <tspan fill="#38BDF8">twoSum</tspan>(nums: <tspan fill="#EAB308">number[]</tspan>, target: <tspan fill="#EAB308">number</tspan>) {</text>
+      <text x="16" y="66" class="mono" font-size="11" fill="#64748B">2    <tspan fill="#F43F5E">const</tspan> map = <tspan fill="#F43F5E">new</tspan> <tspan fill="#38BDF8">Map</tspan>&lt;<tspan fill="#EAB308">number, number</tspan>&gt;();</text>
+      <text x="16" y="86" class="mono" font-size="11" fill="#64748B">3    <tspan fill="#F43F5E">for</tspan> (<tspan fill="#F43F5E">let</tspan> i = <tspan fill="#C084FC">0</tspan>; i &lt; nums.length; i++) {</text>
+      <text x="16" y="106" class="mono" font-size="11" fill="#64748B">4      <tspan fill="#F43F5E">const</tspan> diff = target - nums[i];</text>
+      <text x="16" y="126" class="mono" font-size="11" fill="#64748B">5      <tspan fill="#F43F5E">if</tspan> (map.<tspan fill="#38BDF8">has</tspan>(diff)) <tspan fill="#F43F5E">return</tspan> [map.<tspan fill="#38BDF8">get</tspan>(diff)!, i];</text>
+      <text x="16" y="146" class="mono" font-size="11" fill="#64748B">6      map.<tspan fill="#38BDF8">set</tspan>(nums[i], i);</text>
 
-      <!-- Bottom Status Pill -->
-      <g transform="translate(14, 160)">
-        <rect width="180" height="24" rx="6" fill="#10B981" fill-opacity="0.15"/>
-        <text x="12" y="16" class="mono" font-size="11" fill="#10B981">✓ 22 Server Tests Passing</text>
+      <!-- Bottom Status Badges -->
+      <g transform="translate(14, 162)">
+        <rect width="176" height="24" rx="6" fill="#10B981" fill-opacity="0.14" stroke="#10B981" stroke-opacity="0.3"/>
+        <text x="12" y="16" class="mono" font-size="10.5" fill="#34D399">✓ 22 Server Tests Passing</text>
 
-        <rect x="190" y="0" width="160" height="24" rx="6" fill="#3B82F6" fill-opacity="0.15"/>
-        <text x="202" y="16" class="mono" font-size="11" fill="#38BDF8">Keystroke Replay Active</text>
+        <rect x="186" y="0" width="164" height="24" rx="6" fill="#3B82F6" fill-opacity="0.14" stroke="#3B82F6" stroke-opacity="0.3"/>
+        <text x="198" y="16" class="mono" font-size="10.5" fill="#60A5FA">Keystroke Replay On</text>
 
-        <rect x="360" y="0" width="164" height="24" rx="6" fill="#A855F7" fill-opacity="0.15"/>
-        <text x="372" y="16" class="mono" font-size="11" fill="#C084FC">AI Grading: Optimal O(n)</text>
+        <rect x="360" y="0" width="166" height="24" rx="6" fill="#8B5CF6" fill-opacity="0.14" stroke="#8B5CF6" stroke-opacity="0.3"/>
+        <text x="372" y="16" class="mono" font-size="10.5" fill="#C084FC">AI Eval: O(n) Time / Space</text>
       </g>
     </g>
   </g>
-  <rect x="0.5" y="0.5" width="599" height="339" rx="14" fill="none" stroke="#1D2944"/>
+  <rect x="0.75" y="0.75" width="598.5" height="338.5" rx="16" fill="none" stroke="url(#borderGrad)" stroke-width="1.5"/>
 </svg>

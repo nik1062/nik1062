@@ -1,103 +1,149 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="392" viewBox="0 0 900 392" role="img" aria-label="Deployments: nik1062-portfolio.vercel.app, RecoverForge, CodeMeet AI, MediSync (ClinicOS), ColdMailForge, Metro Mirchi 2.0 are live; Vayu and VedaAI are being built">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="392" viewBox="0 0 900 392" role="img" aria-label="Deployments: nik1062-portfolio, RecoverForge, CodeMeet AI, MediSync, ColdMailForge, Metro Mirchi 2.0 live; Vayu and VedaAI building">
   <defs>
-    <clipPath id="card"><rect width="900" height="392" rx="18"/></clipPath>
+    <clipPath id="card"><rect width="900" height="392" rx="20"/></clipPath>
+    
+    <pattern id="dotGrid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#312E81" opacity="0.4"/>
+    </pattern>
+
+    <radialGradient id="statusGlow" cx="90%" cy="10%" r="60%">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.25"/>
+      <stop offset="60%" stop-color="#06B6D4" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#07070C" stop-opacity="0"/>
+    </radialGradient>
+
     <linearGradient id="sheen" x1="0" x2="1">
-      <stop offset="0" stop-color="#3BE0A0" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#3BE0A0" stop-opacity=".07"/>
-      <stop offset="1" stop-color="#3BE0A0" stop-opacity="0"/>
+      <stop offset="0" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#A855F7" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#1E1B4B" stop-opacity="0.5"/>
     </linearGradient>
   </defs>
+
   <style>
-    .sans { font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif; }
-    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; }
-    .host { font-size: 14px; fill: #E9EEF6; font-weight: 500; }
-    .what { font-size: 12px; fill: #8D99B1; }
-    .tag { font-size: 11.5px; font-weight: 600; letter-spacing: .6px; }
-    .row { animation: in .7s cubic-bezier(.2,.8,.2,1) both; }
-    @keyframes in { from { opacity: 0; transform: translateX(-12px); } to { opacity: 1; transform: none; } }
-    .ping { transform-box: fill-box; transform-origin: center; animation: ping 2s cubic-bezier(.2,.8,.2,1) infinite; }
-    @keyframes ping { 0% { transform: scale(1); opacity: .7; } 80%, 100% { transform: scale(3); opacity: 0; } }
-    .bar { transform-box: fill-box; transform-origin: bottom; animation: beat 1.8s ease-in-out infinite; fill: #3BE0A0; opacity: .6; }
-    @keyframes beat { 0%, 100% { transform: scaleY(.35); } 50% { transform: scaleY(1); } }
-    .amber { fill: #FFB547; }
-    .build { transform-box: fill-box; transform-origin: left; animation: build 3.2s ease-in-out infinite; }
-    @keyframes build { 0% { transform: scaleX(.15); } 70%, 100% { transform: scaleX(1); opacity: 0; } }
-    .sheen { animation: sheen 5s linear infinite; }
-    @keyframes sheen { from { transform: translateY(-80px); } to { transform: translateY(420px); } }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .host { font-size: 13.5px; fill: #F1F5F9; font-weight: 600; }
+    .what { font-size: 11.5px; fill: #94A3B8; }
+    .tag { font-size: 11px; font-weight: 700; letter-spacing: 0.8px; }
+
+    .row { animation: inRow 0.6s cubic-bezier(0.16, 1, 0.3, 1) both; }
+    @keyframes inRow { from { opacity: 0; transform: translateX(-10px); } to { opacity: 1; transform: none; } }
+
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulseDot 2s cubic-bezier(0.2, 0.8, 0.2, 1) infinite; }
+    @keyframes pulseDot { 0% { transform: scale(1); opacity: 0.8; } 80%, 100% { transform: scale(3.2); opacity: 0; } }
+
+    .equalizer { transform-box: fill-box; transform-origin: bottom; animation: eqBeat 1.8s ease-in-out infinite; fill: url(#barGrad); }
+    @keyframes eqBeat { 0%, 100% { transform: scaleY(0.3); } 50% { transform: scaleY(1); } }
+
+    .buildAnim { transform-box: fill-box; transform-origin: left; animation: buildBar 3s ease-in-out infinite; }
+    @keyframes buildBar { 0% { transform: scaleX(0.12); } 70%, 100% { transform: scaleX(1); opacity: 0; } }
+
+    .sheenAnim { animation: sheenMove 6s linear infinite; }
+    @keyframes sheenMove { from { transform: translateY(-70px); } to { transform: translateY(400px); } }
   </style>
 
+  <!-- Background -->
   <g clip-path="url(#card)">
-    <rect width="900" height="392" fill="#0F1729"/>
-    <rect width="900" height="52" fill="#131D33"/>
-    <rect class="sheen" x="0" y="0" width="900" height="60" fill="url(#sheen)"/>
+    <rect width="900" height="392" fill="#07070C"/>
+    <rect width="900" height="392" fill="url(#dotGrid)"/>
+    <rect width="900" height="392" fill="url(#statusGlow)"/>
+    <rect width="900" height="52" fill="#0E0D1B"/>
+    <rect class="sheenAnim" x="0" y="0" width="900" height="60" fill="url(#sheen)"/>
   </g>
-  <rect x=".5" y=".5" width="899" height="391" rx="18" fill="none" stroke="#1D2944"/>
-  <line x1="0" y1="52" x2="900" y2="52" stroke="#1D2944"/>
+  <rect x="0.75" y="0.75" width="898.5" height="390.5" rx="20" fill="none" stroke="url(#borderGrad)" stroke-width="1.5"/>
+  <line x1="0" y1="52" x2="900" y2="52" stroke="#1E1B4B" stroke-width="1.2"/>
 
-  <circle class="ping" cx="26" cy="26" r="4.5" fill="#3BE0A0"/><circle cx="26" cy="26" r="4.5" fill="#3BE0A0"/>
-  <text x="42" y="31" class="sans" font-size="15" font-weight="600" fill="#E9EEF6">Deployments &amp; Live Systems</text>
-  <text x="270" y="31" class="mono" font-size="12.5" fill="#8D99B1">· 6 live · 2 building</text>
-  <text x="876" y="31" text-anchor="end" class="mono" font-size="12" fill="#8D99B1">nik1062-portfolio.vercel.app ↗</text>
+  <!-- Top Title Bar -->
+  <circle class="pulse" cx="26" cy="26" r="4.5" fill="#38BDF8"/><circle cx="26" cy="26" r="4.5" fill="#38BDF8"/>
+  <text x="42" y="31" class="sans" font-size="14.5" font-weight="700" fill="#F8FAFC">SYSTEM &amp; SERVICE DEPLOYMENTS</text>
+  <text x="310" y="31" class="mono" font-size="12" fill="#818CF8">· 6 ACTIVE CLUSTERS · 2 PIPELINES BUILDING</text>
+  <text x="876" y="31" text-anchor="end" class="mono" font-size="12" fill="#94A3B8">nik1062-portfolio.vercel.app ↗</text>
 
-  <!-- row 1: portfolio -->
-  <g transform="translate(0 60)"><g class="row" style="animation-delay:.05s">
-    <circle class="ping" cx="26" cy="20" r="4" fill="#3BE0A0"/><circle cx="26" cy="20" r="4" fill="#3BE0A0"/>
-    <text x="42" y="18" class="mono host">nik1062-portfolio.vercel.app</text><text x="42" y="33" class="mono what">Portfolio &amp; Client Projects · React + Vite + Tailwind</text>
-    <g transform="translate(700 6)"><rect class="bar" x="0" y="0" width="5" height="24" style="animation-delay:0s"/><rect class="bar" x="8" y="0" width="5" height="24" style="animation-delay:.2s"/><rect class="bar" x="16" y="0" width="5" height="24" style="animation-delay:.4s"/><rect class="bar" x="24" y="0" width="5" height="24" style="animation-delay:.6s"/><rect class="bar" x="32" y="0" width="5" height="24" style="animation-delay:.8s"/><rect class="bar" x="40" y="0" width="5" height="24" style="animation-delay:1s"/></g>
-    <rect x="806" y="8" width="70" height="22" rx="6" fill="#3BE0A0" fill-opacity=".14"/><text x="841" y="23" text-anchor="middle" class="mono tag" fill="#3BE0A0">LIVE</text>
+  <!-- Row 1: Portfolio -->
+  <g transform="translate(0, 58)"><g class="row" style="animation-delay: 0.05s">
+    <circle class="pulse" cx="26" cy="20" r="4" fill="#06B6D4"/><circle cx="26" cy="20" r="4" fill="#06B6D4"/>
+    <text x="42" y="18" class="mono host">nik1062-portfolio.vercel.app</text>
+    <text x="42" y="33" class="mono what">Interactive Developer Portfolio &amp; Project Hub · React + Vite + Tailwind</text>
+    <g transform="translate(700, 6)"><rect class="equalizer" x="0" y="0" width="4.5" height="22" style="animation-delay:0s"/><rect class="equalizer" x="7" y="0" width="4.5" height="22" style="animation-delay:.2s"/><rect class="equalizer" x="14" y="0" width="4.5" height="22" style="animation-delay:.4s"/><rect class="equalizer" x="21" y="0" width="4.5" height="22" style="animation-delay:.6s"/><rect class="equalizer" x="28" y="0" width="4.5" height="22" style="animation-delay:.8s"/><rect class="equalizer" x="35" y="0" width="4.5" height="22" style="animation-delay:1s"/></g>
+    <rect x="806" y="8" width="70" height="22" rx="6" fill="#06B6D4" fill-opacity="0.16" stroke="#06B6D4" stroke-opacity="0.4"/>
+    <text x="841" y="23" text-anchor="middle" class="mono tag" fill="#38BDF8">LIVE</text>
   </g></g>
-  <line x1="18" y1="101" x2="882" y2="101" stroke="#1D2944"/>
+  <line x1="18" y1="99" x2="882" y2="99" stroke="#16142A"/>
 
-  <!-- row 2: recoverforge -->
-  <g transform="translate(0 102)"><g class="row" style="animation-delay:.15s">
-    <circle class="ping" cx="26" cy="20" r="4" fill="#3BE0A0" style="animation-delay:.3s"/><circle cx="26" cy="20" r="4" fill="#3BE0A0"/>
-    <text x="42" y="18" class="mono host">github.com/nik1062/RecoverForge</text><text x="42" y="33" class="mono what">AI Payment Recovery Agent · Razorpay Webhooks + GPT-4o-mini</text>
-    <g transform="translate(700 6)"><rect class="bar" x="0" y="0" width="5" height="24" style="animation-delay:.3s"/><rect class="bar" x="8" y="0" width="5" height="24" style="animation-delay:.5s"/><rect class="bar" x="16" y="0" width="5" height="24" style="animation-delay:.7s"/><rect class="bar" x="24" y="0" width="5" height="24" style="animation-delay:.9s"/><rect class="bar" x="32" y="0" width="5" height="24" style="animation-delay:1.1s"/><rect class="bar" x="40" y="0" width="5" height="24" style="animation-delay:1.3s"/></g>
-    <rect x="806" y="8" width="70" height="22" rx="6" fill="#3BE0A0" fill-opacity=".14"/><text x="841" y="23" text-anchor="middle" class="mono tag" fill="#3BE0A0">LIVE</text>
+  <!-- Row 2: RecoverForge -->
+  <g transform="translate(0, 100)"><g class="row" style="animation-delay: 0.12s">
+    <circle class="pulse" cx="26" cy="20" r="4" fill="#06B6D4" style="animation-delay:.3s"/><circle cx="26" cy="20" r="4" fill="#06B6D4"/>
+    <text x="42" y="18" class="mono host">github.com/nik1062/RecoverForge</text>
+    <text x="42" y="33" class="mono what">Autonomous AI Payment Recovery Agent · Razorpay Webhook Ingestion + GPT-4o-mini</text>
+    <g transform="translate(700, 6)"><rect class="equalizer" x="0" y="0" width="4.5" height="22" style="animation-delay:.2s"/><rect class="equalizer" x="7" y="0" width="4.5" height="22" style="animation-delay:.4s"/><rect class="equalizer" x="14" y="0" width="4.5" height="22" style="animation-delay:.6s"/><rect class="equalizer" x="21" y="0" width="4.5" height="22" style="animation-delay:.8s"/><rect class="equalizer" x="28" y="0" width="4.5" height="22" style="animation-delay:1s"/><rect class="equalizer" x="35" y="0" width="4.5" height="22" style="animation-delay:1.2s"/></g>
+    <rect x="806" y="8" width="70" height="22" rx="6" fill="#06B6D4" fill-opacity="0.16" stroke="#06B6D4" stroke-opacity="0.4"/>
+    <text x="841" y="23" text-anchor="middle" class="mono tag" fill="#38BDF8">LIVE</text>
   </g></g>
-  <line x1="18" y1="143" x2="882" y2="143" stroke="#1D2944"/>
+  <line x1="18" y1="141" x2="882" y2="141" stroke="#16142A"/>
 
-  <!-- row 3: codemeet-ai -->
-  <g transform="translate(0 144)"><g class="row" style="animation-delay:.25s">
-    <circle class="ping" cx="26" cy="20" r="4" fill="#3BE0A0" style="animation-delay:.6s"/><circle cx="26" cy="20" r="4" fill="#3BE0A0"/>
-    <text x="42" y="18" class="mono host">CodeMeet AI</text><text x="42" y="33" class="mono what">Technical Interview Platform · Multiplayer Monaco (Yjs) + LiveKit WebRTC</text>
-    <g transform="translate(700 6)"><rect class="bar" x="0" y="0" width="5" height="24" style="animation-delay:.6s"/><rect class="bar" x="8" y="0" width="5" height="24" style="animation-delay:.8s"/><rect class="bar" x="16" y="0" width="5" height="24" style="animation-delay:1s"/><rect class="bar" x="24" y="0" width="5" height="24" style="animation-delay:1.2s"/><rect class="bar" x="32" y="0" width="5" height="24" style="animation-delay:1.4s"/><rect class="bar" x="40" y="0" width="5" height="24" style="animation-delay:1.6s"/></g>
-    <rect x="806" y="8" width="70" height="22" rx="6" fill="#3BE0A0" fill-opacity=".14"/><text x="841" y="23" text-anchor="middle" class="mono tag" fill="#3BE0A0">LIVE</text>
+  <!-- Row 3: CodeMeet AI -->
+  <g transform="translate(0, 142)"><g class="row" style="animation-delay: 0.2s">
+    <circle class="pulse" cx="26" cy="20" r="4" fill="#06B6D4" style="animation-delay:.6s"/><circle cx="26" cy="20" r="4" fill="#06B6D4"/>
+    <text x="42" y="18" class="mono host">CodeMeet AI — Collaborative Engine</text>
+    <text x="42" y="33" class="mono what">Monaco Multiplayer CRDT (Yjs) + LiveKit WebRTC Video + Automated LLM Evaluation</text>
+    <g transform="translate(700, 6)"><rect class="equalizer" x="0" y="0" width="4.5" height="22" style="animation-delay:.4s"/><rect class="equalizer" x="7" y="0" width="4.5" height="22" style="animation-delay:.6s"/><rect class="equalizer" x="14" y="0" width="4.5" height="22" style="animation-delay:.8s"/><rect class="equalizer" x="21" y="0" width="4.5" height="22" style="animation-delay:1s"/><rect class="equalizer" x="28" y="0" width="4.5" height="22" style="animation-delay:1.2s"/><rect class="equalizer" x="35" y="0" width="4.5" height="22" style="animation-delay:1.4s"/></g>
+    <rect x="806" y="8" width="70" height="22" rx="6" fill="#06B6D4" fill-opacity="0.16" stroke="#06B6D4" stroke-opacity="0.4"/>
+    <text x="841" y="23" text-anchor="middle" class="mono tag" fill="#38BDF8">LIVE</text>
   </g></g>
-  <line x1="18" y1="185" x2="882" y2="185" stroke="#1D2944"/>
+  <line x1="18" y1="183" x2="882" y2="183" stroke="#16142A"/>
 
-  <!-- row 4: medisync-pos -->
-  <g transform="translate(0 186)"><g class="row" style="animation-delay:.35s">
-    <circle class="ping" cx="26" cy="20" r="4" fill="#3BE0A0" style="animation-delay:.9s"/><circle cx="26" cy="20" r="4" fill="#3BE0A0"/>
-    <text x="42" y="18" class="mono host">github.com/nik1062/MediSync-POS</text><text x="42" y="33" class="mono what">MediSync (ClinicOS) · Live Patient Queue &amp; POS · Socket.io + PostgreSQL</text>
-    <g transform="translate(700 6)"><rect class="bar" x="0" y="0" width="5" height="24" style="animation-delay:.1s"/><rect class="bar" x="8" y="0" width="5" height="24" style="animation-delay:.3s"/><rect class="bar" x="16" y="0" width="5" height="24" style="animation-delay:.5s"/><rect class="bar" x="24" y="0" width="5" height="24" style="animation-delay:.7s"/><rect class="bar" x="32" y="0" width="5" height="24" style="animation-delay:.9s"/><rect class="bar" x="40" y="0" width="5" height="24" style="animation-delay:1.1s"/></g>
-    <rect x="806" y="8" width="70" height="22" rx="6" fill="#3BE0A0" fill-opacity=".14"/><text x="841" y="23" text-anchor="middle" class="mono tag" fill="#3BE0A0">LIVE</text>
+  <!-- Row 4: MediSync ClinicOS -->
+  <g transform="translate(0, 184)"><g class="row" style="animation-delay: 0.28s">
+    <circle class="pulse" cx="26" cy="20" r="4" fill="#06B6D4" style="animation-delay:.9s"/><circle cx="26" cy="20" r="4" fill="#06B6D4"/>
+    <text x="42" y="18" class="mono host">github.com/nik1062/MediSync-POS</text>
+    <text x="42" y="33" class="mono what">MediSync (ClinicOS) · Live Patient OPD Queue &amp; POS · Socket.io Sync + PostgreSQL</text>
+    <g transform="translate(700, 6)"><rect class="equalizer" x="0" y="0" width="4.5" height="22" style="animation-delay:.1s"/><rect class="equalizer" x="7" y="0" width="4.5" height="22" style="animation-delay:.3s"/><rect class="equalizer" x="14" y="0" width="4.5" height="22" style="animation-delay:.5s"/><rect class="equalizer" x="21" y="0" width="4.5" height="22" style="animation-delay:.7s"/><rect class="equalizer" x="28" y="0" width="4.5" height="22" style="animation-delay:.9s"/><rect class="equalizer" x="35" y="0" width="4.5" height="22" style="animation-delay:1.1s"/></g>
+    <rect x="806" y="8" width="70" height="22" rx="6" fill="#06B6D4" fill-opacity="0.16" stroke="#06B6D4" stroke-opacity="0.4"/>
+    <text x="841" y="23" text-anchor="middle" class="mono tag" fill="#38BDF8">LIVE</text>
   </g></g>
-  <line x1="18" y1="227" x2="882" y2="227" stroke="#1D2944"/>
+  <line x1="18" y1="225" x2="882" y2="225" stroke="#16142A"/>
 
-  <!-- row 5: coldmailforge -->
-  <g transform="translate(0 228)"><g class="row" style="animation-delay:.45s">
-    <circle class="ping" cx="26" cy="20" r="4" fill="#3BE0A0" style="animation-delay:1.2s"/><circle cx="26" cy="20" r="4" fill="#3BE0A0"/>
-    <text x="42" y="18" class="mono host">github.com/nik1062/ColdMailForge</text><text x="42" y="33" class="mono what">ColdMailForge · AI Cold Email SaaS · Razorpay + MongoDB</text>
-    <g transform="translate(700 6)"><rect class="bar" x="0" y="0" width="5" height="24" style="animation-delay:.4s"/><rect class="bar" x="8" y="0" width="5" height="24" style="animation-delay:.6s"/><rect class="bar" x="16" y="0" width="5" height="24" style="animation-delay:.8s"/><rect class="bar" x="24" y="0" width="5" height="24" style="animation-delay:1s"/><rect class="bar" x="32" y="0" width="5" height="24" style="animation-delay:1.2s"/><rect class="bar" x="40" y="0" width="5" height="24" style="animation-delay:1.4s"/></g>
-    <rect x="806" y="8" width="70" height="22" rx="6" fill="#3BE0A0" fill-opacity=".14"/><text x="841" y="23" text-anchor="middle" class="mono tag" fill="#3BE0A0">LIVE</text>
+  <!-- Row 5: ColdMailForge -->
+  <g transform="translate(0, 226)"><g class="row" style="animation-delay: 0.36s">
+    <circle class="pulse" cx="26" cy="20" r="4" fill="#06B6D4" style="animation-delay:1.2s"/><circle cx="26" cy="20" r="4" fill="#06B6D4"/>
+    <text x="42" y="18" class="mono host">github.com/nik1062/ColdMailForge</text>
+    <text x="42" y="33" class="mono what">ColdMailForge SaaS · AI Email Generator &amp; Dispatcher · Razorpay Credit Wallet</text>
+    <g transform="translate(700, 6)"><rect class="equalizer" x="0" y="0" width="4.5" height="22" style="animation-delay:.3s"/><rect class="equalizer" x="7" y="0" width="4.5" height="22" style="animation-delay:.5s"/><rect class="equalizer" x="14" y="0" width="4.5" height="22" style="animation-delay:.7s"/><rect class="equalizer" x="21" y="0" width="4.5" height="22" style="animation-delay:.9s"/><rect class="equalizer" x="28" y="0" width="4.5" height="22" style="animation-delay:1.1s"/><rect class="equalizer" x="35" y="0" width="4.5" height="22" style="animation-delay:1.3s"/></g>
+    <rect x="806" y="8" width="70" height="22" rx="6" fill="#06B6D4" fill-opacity="0.16" stroke="#06B6D4" stroke-opacity="0.4"/>
+    <text x="841" y="23" text-anchor="middle" class="mono tag" fill="#38BDF8">LIVE</text>
   </g></g>
-  <line x1="18" y1="269" x2="882" y2="269" stroke="#1D2944"/>
+  <line x1="18" y1="267" x2="882" y2="267" stroke="#16142A"/>
 
-  <!-- row 6: metro2.O -->
-  <g transform="translate(0 270)"><g class="row" style="animation-delay:.55s">
-    <circle class="ping" cx="26" cy="20" r="4" fill="#3BE0A0" style="animation-delay:1.5s"/><circle cx="26" cy="20" r="4" fill="#3BE0A0"/>
-    <text x="42" y="18" class="mono host">github.com/nik1062/metro2.O</text><text x="42" y="33" class="mono what">Metro Mirchi 2.0 · Client Website · React + TypeScript</text>
-    <g transform="translate(700 6)"><rect class="bar" x="0" y="0" width="5" height="24" style="animation-delay:.7s"/><rect class="bar" x="8" y="0" width="5" height="24" style="animation-delay:.9s"/><rect class="bar" x="16" y="0" width="5" height="24" style="animation-delay:1.1s"/><rect class="bar" x="24" y="0" width="5" height="24" style="animation-delay:1.3s"/><rect class="bar" x="32" y="0" width="5" height="24" style="animation-delay:1.5s"/><rect class="bar" x="40" y="0" width="5" height="24" style="animation-delay:1.7s"/></g>
-    <rect x="806" y="8" width="70" height="22" rx="6" fill="#3BE0A0" fill-opacity=".14"/><text x="841" y="23" text-anchor="middle" class="mono tag" fill="#3BE0A0">LIVE</text>
+  <!-- Row 6: Metro Mirchi 2.0 -->
+  <g transform="translate(0, 268)"><g class="row" style="animation-delay: 0.44s">
+    <circle class="pulse" cx="26" cy="20" r="4" fill="#06B6D4" style="animation-delay:1.5s"/><circle cx="26" cy="20" r="4" fill="#06B6D4"/>
+    <text x="42" y="18" class="mono host">github.com/nik1062/metro2.O</text>
+    <text x="42" y="33" class="mono what">Metro Mirchi 2.0 Client Platform · High-Performance Restaurant UX · TypeScript</text>
+    <g transform="translate(700, 6)"><rect class="equalizer" x="0" y="0" width="4.5" height="22" style="animation-delay:.5s"/><rect class="equalizer" x="7" y="0" width="4.5" height="22" style="animation-delay:.7s"/><rect class="equalizer" x="14" y="0" width="4.5" height="22" style="animation-delay:.9s"/><rect class="equalizer" x="21" y="0" width="4.5" height="22" style="animation-delay:1.1s"/><rect class="equalizer" x="28" y="0" width="4.5" height="22" style="animation-delay:1.3s"/><rect class="equalizer" x="35" y="0" width="4.5" height="22" style="animation-delay:1.5s"/></g>
+    <rect x="806" y="8" width="70" height="22" rx="6" fill="#06B6D4" fill-opacity="0.16" stroke="#06B6D4" stroke-opacity="0.4"/>
+    <text x="841" y="23" text-anchor="middle" class="mono tag" fill="#38BDF8">LIVE</text>
   </g></g>
-  <line x1="18" y1="311" x2="882" y2="311" stroke="#1D2944"/>
+  <line x1="18" y1="309" x2="882" y2="309" stroke="#16142A"/>
 
-  <!-- row 7: building now -->
-  <g transform="translate(0 312)"><g class="row" style="animation-delay:.65s">
-    <circle cx="26" cy="20" r="4" fill="#FFB547"/>
-    <text x="42" y="18" class="mono host">github.com/nik1062/vayu · VedaAI</text><text x="42" y="33" class="mono what">Vayu C++ API Engine · VedaAI Educational Assessment Generator</text>
-    <rect x="700" y="16" width="90" height="6" rx="3" fill="#131D33"/><rect class="build amber" x="700" y="16" width="90" height="6" rx="3"/>
-    <rect x="796" y="8" width="80" height="22" rx="6" fill="#FFB547" fill-opacity=".14"/><text x="836" y="23" text-anchor="middle" class="mono tag" fill="#FFB547">BUILDING</text>
+  <!-- Row 7: Building Now (Vayu + VedaAI) -->
+  <g transform="translate(0, 310)"><g class="row" style="animation-delay: 0.52s">
+    <circle cx="26" cy="20" r="4" fill="#F59E0B"/>
+    <text x="42" y="18" class="mono host">github.com/nik1062/vayu · VedaAI</text>
+    <text x="42" y="33" class="mono what">Vayu Native C++ Load Engine · VedaAI Document Evaluation System</text>
+    <rect x="696" y="16" width="94" height="6" rx="3" fill="#16142A"/>
+    <rect class="buildAnim" x="696" y="16" width="94" height="6" rx="3" fill="#F59E0B"/>
+    <rect x="800" y="8" width="82" height="22" rx="6" fill="#F59E0B" fill-opacity="0.16" stroke="#F59E0B" stroke-opacity="0.4"/>
+    <text x="841" y="23" text-anchor="middle" class="mono tag" fill="#FBBF24">BUILDING</text>
   </g></g>
 </svg>
